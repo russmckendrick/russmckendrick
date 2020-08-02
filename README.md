@@ -33,7 +33,7 @@
     </a>
 </p>
 
-I am an experienced DeOps practitioner and system administrator with a passion for automation and containers. I have been working in IT and related industries for the better part of 25 years. During my career, I have had varied responsibilities in many different sectors, ranging from looking after an entire IT infrastructure to providing first-line, second-line, and senior support in both client-facing and internal teams for small and large organisations.
+I am an experienced DevOps practitioner and system administrator with a passion for automation and containers. I have been working in IT and related industries for the better part of 25 years. During my career, I have had varied responsibilities in many different sectors, ranging from looking after an entire IT infrastructure to providing first-line, second-line, and senior support in both client-facing and internal teams for small and large organisations.
 
 I work almost exclusively with Linux, using open source systems and tools across both dedicated hardware and virtual machines hosted in public and private clouds at [N4Stack](https://www.n4stack.io/) which is a [Node4](https://www.node4.co.uk/) company, where I am the Practice Manager of SRE & DevOps.
 
