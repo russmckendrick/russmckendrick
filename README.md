@@ -29,7 +29,7 @@
         <img src="https://img.shields.io/badge/-Spotify-1db954?style=flat&amp;labelColor=1db954&amp;logo=Spotify&amp;logoColor=white" alt="Spotify">
     </a>
     <a href="https://www.mediaglasses.blog/">
-        <img src="https://img.shields.io/badge/-Ghost-738A94?style=flat&amp;labelColor=738A94&amp;logo=Ghost&amp;logoColor=white" alt="Blog">
+        <img src="https://img.shields.io/badge/-Blog-738A94?style=flat&amp;labelColor=738A94&amp;logo=Ghost&amp;logoColor=white" alt="Blog">
     </a>
 </p>
 
