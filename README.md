@@ -10,7 +10,7 @@
     <a href="https://www.linkedin.com/in/russmckendrick/">
         <img src="https://img.shields.io/badge/-LinkedIn-0077b5?style=flat&amp;logo=Linkedin&amp;logoColor=white" alt="Linkedin">
     </a> 
-    <a href="https://www.amazon.com/Russ-McKendrick/e/B079KJV88Z">
+    <a href="https://www.amazon.com/author/russmckendrick">
         <img src="https://img.shields.io/badge/-Amazon-ff9900?style=flat&amp;logo=Amazon&amp;logoColor=white" alt="Amazon">
     </a> 
     <a href="https://hub.docker.com/u/russmckendrick/">
