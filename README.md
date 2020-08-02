@@ -72,7 +72,3 @@ In my spare time, I have written seven books "[Monitoring Docker](https://www.pa
 I have also contributed to "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/). My seventh book, "[Mastering Docker - Third Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-third-edition)", has just been published by [Packt Publishing](https://www.packtpub.com/).
 
 I also buy way too many [records](https://www.discogs.com/user/russmck/collection?header=1).
-
-<p align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=russmckendrick&show_icons=true&count_private=true&hide_rank=true&theme=merko">
-</p>
