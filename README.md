@@ -28,6 +28,9 @@
     <a href="https://open.spotify.com/user/russmckendrick">
         <img src="https://img.shields.io/badge/-Spotify-1db954?style=flat&amp;labelColor=1db954&amp;logo=Spotify&amp;logoColor=white" alt="Spotify">
     </a>
+    <a href="https://www.mediaglasses.blog/">
+        <img src="https://img.shields.io/badge/-Ghost-738A94?style=flat&amp;labelColor=738A94&amp;logo=Ghost&amp;logoColor=white" alt="Blog">
+    </a>
 </p>
 
 I am an experienced DeOps practitioner and system administrator with a passion for automation and containers. I have been working in IT and related industries for the better part of 25 years. During my career, I have had varied responsibilities in many different sectors, ranging from looking after an entire IT infrastructure to providing first-line, second-line, and senior support in both client-facing and internal teams for small and large organisations.
