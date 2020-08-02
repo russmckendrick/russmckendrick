@@ -4,7 +4,7 @@
 
 I am an experienced DeOps practitioner and system administrator with a passion for automation and containers. I have been working in IT and related industries for the better part of 25 years. During my career, I have had varied responsibilities in many different sectors, ranging from looking after an entire IT infrastructure to providing first-line, second-line, and senior support in both client-facing and internal teams for small and large organisations.
 
-I work almost exclusively with Linux, using open source systems and tools across both dedicated hardware and virtual machines hosted in public and private clouds at N4Stack which is a Node4 company, where I am a Practice Manager (SRE & DevOps).
+I work almost exclusively with Linux, using open source systems and tools across both dedicated hardware and virtual machines hosted in public and private clouds at [N4Stack](https://www.n4stack.io/) which is a [Node4](https://www.node4.co.uk/) company, where I am a Practice Manager (SRE & DevOps).
 
 <p align="center">
   <a href="https://www.packtpub.com/virtualization-and-cloud/monitoring-docker/">
@@ -36,6 +36,6 @@ I work almost exclusively with Linux, using open source systems and tools across
   </a>
 </p>
 
-In my spare time, I have written seven books "Monitoring Docker", "Extending Docker", "Docker Bootcamp", "Mastering Docker - Second Edition", "Kubernetes for Serverless Applications" and Learn Ansible which are all available now from Packt Publishing. I have also contributed to "Monitoring and Management With Docker and Containers", which was published by The New Stack. My seventh book, "Mastering Docker - Third Edition", has just been published by Packt Publishing.
+In my spare time, I have written seven books "[Monitoring Docker](https://www.packtpub.com/virtualization-and-cloud/monitoring-docker)", "[Extending Docker](https://www.packtpub.com/networking-and-servers/extending-docker)", "[Docker Bootcamp](https://www.packtpub.com/virtualization-and-cloud/docker-bootcamp)", "[Mastering Docker - Second Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-second-edition)", "[Kubernetes for Serverless Applications](https://www.packtpub.com/networking-and-servers/kubernetes-serverless-applications)", "[Learn Ansible](https://www.packtpub.com/virtualization-and-cloud/learn-ansible)" and have contributed to "[Docker High Performance - Second Edition](https://www.packtpub.com/networking-and-servers/docker-high-performance-second-edition)" which are all available now. I have also contributed to "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/). My seventh book, "[Mastering Docker - Third Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-third-edition)", has just been published by [Packt Publishing](https://www.packtpub.com/).
 
 I also buy way too many [records](https://www.discogs.com/user/russmck/collection?header=1).
