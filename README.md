@@ -7,11 +7,11 @@ I am an experienced DeOps practitioner and system administrator with a passion f
 I work almost exclusively with Linux, using open source systems and tools across both dedicated hardware and virtual machines hosted in public and private clouds at N4Stack which is a Node4 company, where I am a Practice Manager (SRE & DevOps).
 
 <p align="center">
-  <a href="https://thenewstack.io/ebooks/docker-and-containers/monitoring-management-docker-containers/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/01.png' align='centre' height='150'>
-  </a>
   <a href="https://www.packtpub.com/virtualization-and-cloud/monitoring-docker/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/02.jpg' align='centre' height='150'>
+  </a>
+  <a href="https://thenewstack.io/ebooks/docker-and-containers/monitoring-management-docker-containers/">
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/01.png' align='centre' height='150'>
   </a>
   <a href="https://www.packtpub.com/networking-and-servers/extending-docker/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/03.jpg' align='centre' height='150'>
