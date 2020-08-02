@@ -49,7 +49,7 @@ I work almost exclusively with Linux, using open source systems and tools across
   </a>
   <a href="https://www.packtpub.com/virtualization-and-cloud/mastering-docker-second-edition">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/05.jpg' align='centre' height='150'>
-  </a>
+  </a><br>
   <a href="https://www.packtpub.com/networking-and-servers/kubernetes-serverless-applications/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/06.jpg' align='centre' height='150'>
   </a>
