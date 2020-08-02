@@ -8,41 +8,34 @@ I work almost exclusively with Linux, using open source systems and tools across
 
 <p align="center">
   <a href="https://thenewstack.io/ebooks/docker-and-containers/monitoring-management-docker-containers/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/01.png' align='centre' height='200'>
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/01.png' align='centre' height='150'>
   </a>
   <a href="https://www.packtpub.com/virtualization-and-cloud/monitoring-docker/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/02.jpg' align='centre' height='200'>
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/02.jpg' align='centre' height='150'>
   </a>
   <a href="https://www.packtpub.com/networking-and-servers/extending-docker/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/03.jpg' align='centre' height='200'>
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/03.jpg' align='centre' height='150'>
   </a>
   <a href="https://www.packtpub.com/virtualization-and-cloud/docker-bootcamp/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/04.jpg' align='centre' height='200'>
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/04.jpg' align='centre' height='150'>
   </a>
   <a href="https://www.packtpub.com/virtualization-and-cloud/mastering-docker-second-edition">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/05.jpg' align='centre' height='200'>
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/05.jpg' align='centre' height='150'>
   </a>
   <a href="https://www.packtpub.com/networking-and-servers/kubernetes-serverless-applications/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/06.jpg' align='centre' height='200'>
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/06.jpg' align='centre' height='150'>
   </a>
   <a href="https://www.packtpub.com/virtualization-and-cloud/learn-ansible/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/07.png' align='centre' height='200'>
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/07.png' align='centre' height='150'>
   </a>
   <a href="https://www.packtpub.com/virtualization-and-cloud/mastering-docker-third-edition/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/08.jpg' align='centre' height='200'>
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/08.jpg' align='centre' height='150'>
   </a>
   <a href="https://www.packtpub.com/networking-and-servers/docker-high-performance-second-edition/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/09.png' align='centre' height='200'>
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/09.png' align='centre' height='150'>
   </a>
 </p>
 
-
-
-
-
-
-
-
 In my spare time, I have written seven books "Monitoring Docker", "Extending Docker", "Docker Bootcamp", "Mastering Docker - Second Edition", "Kubernetes for Serverless Applications" and Learn Ansible which are all available now from Packt Publishing. I have also contributed to "Monitoring and Management With Docker and Containers", which was published by The New Stack. My seventh book, "Mastering Docker - Third Edition", has just been published by Packt Publishing.
 
-I also buy way too many records.
+I also buy way too many [records](https://www.discogs.com/user/russmck/collection?header=1).
