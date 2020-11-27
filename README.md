@@ -19,7 +19,7 @@
     <a href="https://www.instagram.com/russmckendrick/">
         <img src="https://img.shields.io/badge/-Instagram-e1306c?style=flat&amp;labelColor=e1306c&amp;logo=Instagram&amp;logoColor=white" alt="Instagram">
     </a> 
-    <a href="https://www.instagram.com/russmckendrick/">
+    <a href="https://russmckendrick.medium.com/">
         <img src="https://img.shields.io/badge/-Medium-00ab6c?style=flat&amp;labelColor=00ab6c&amp;logo=Medium&amp;logoColor=white" alt="Medium">
     </a> 
     <a href="https://www.discogs.com/user/russmck/collection?header=1">
@@ -72,6 +72,6 @@ I work almost exclusively with Linux, using open source systems and tools across
 
 In my spare time, I have written seven books "[Monitoring Docker](https://www.packtpub.com/virtualization-and-cloud/monitoring-docker)", "[Extending Docker](https://www.packtpub.com/networking-and-servers/extending-docker)", "[Docker Bootcamp](https://www.packtpub.com/virtualization-and-cloud/docker-bootcamp)", "[Mastering Docker - Second Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-second-edition)", "[Kubernetes for Serverless Applications](https://www.packtpub.com/networking-and-servers/kubernetes-serverless-applications)", "[Mastering Docker - Third Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-third-edition)", "[Learn Ansible](https://www.packtpub.com/virtualization-and-cloud/learn-ansible)" and have contributed to "[Docker High Performance - Second Edition](https://www.packtpub.com/networking-and-servers/docker-high-performance-second-edition)" which are all available now.
 
-I have also contributed to "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/). My eighth book, "[Mastering Docker - Fourth Edition](https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition)" will be published by [Packt Publishing](https://www.packtpub.com/) soon.
+I have also contributed to "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/). My eighth book, "[Mastering Docker - Fourth Edition](https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition)" is out now and published by [Packt Publishing](https://www.packtpub.com/).
 
 I also buy way too many [records](https://www.discogs.com/user/russmck/collection?header=1).
