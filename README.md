@@ -28,6 +28,9 @@
     <a href="https://open.spotify.com/user/russmckendrick">
         <img src="https://img.shields.io/badge/-Spotify-1db954?style=flat&amp;labelColor=1db954&amp;logo=Spotify&amp;logoColor=white" alt="Spotify">
     </a>
+    <a href="https://www.last.fm/user/RussMckendrick">
+        <img src="https://img.shields.io/badge/-Last.FM-D51007?style=flat&amp;labelColor=D51007&amp;logo=Last.FM&amp;logoColor=white" alt="Last.FM">
+    </a>
     <a href="https://www.mediaglasses.blog/">
         <img src="https://img.shields.io/badge/-Blog-738A94?style=flat&amp;labelColor=738A94&amp;logo=Ghost&amp;logoColor=white" alt="Blog">
     </a>
