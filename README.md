@@ -7,6 +7,9 @@
     <a href="https://twitter.com/russmckendrick/">
         <img src="https://img.shields.io/badge/-Twitter-1da1f2?style=flat&amp;logo=Twitter&amp;logoColor=white" alt="Github">
     </a> 
+    <a href="https://social.mckendrick.io/@russ" rel="me">
+        <img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109285992453842904?domain=https%3A%2F%2Fsocial.mckendrick.io">
+    </a>
     <a href="https://www.linkedin.com/in/russmckendrick/">
         <img src="https://img.shields.io/badge/-LinkedIn-0077b5?style=flat&amp;logo=Linkedin&amp;logoColor=white" alt="Linkedin">
     </a> 
