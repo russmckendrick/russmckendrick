@@ -7,7 +7,7 @@
     <a href="https://twitter.com/russmckendrick/">
         <img src="https://img.shields.io/badge/-Twitter-1da1f2?style=flat&amp;logo=Twitter&amp;logoColor=white" alt="Github">
     </a> 
-    <a href="https://social.mckendrick.io/@russ" rel="me">
+    <a rel="me" href="https://social.mckendrick.io/@russ">
         <img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109285992453842904?domain=https%3A%2F%2Fsocial.mckendrick.io">
     </a>
     <a href="https://www.linkedin.com/in/russmckendrick/">
@@ -81,3 +81,5 @@ In my spare time, I have written seven books "[Monitoring Docker](https://www.pa
 I have also contributed to "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/). My eighth book, "[Mastering Docker - Fourth Edition](https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition)" is out now and published by [Packt Publishing](https://www.packtpub.com/).
 
 I also buy way too many [records](https://www.discogs.com/user/russmck/collection?header=1).
+
+<link rel="me" href="https://social.mckendrick.io/@russ">
