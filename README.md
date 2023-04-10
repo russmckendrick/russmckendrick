@@ -74,7 +74,7 @@ I work almost exclusively with Linux, using open-source systems and tools across
   <a href="https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/10.jpg' align='centre' height='150'>
   </a>
-  <a href="https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition/">
+  <a href="https://www.packtpub.com/product/the-kubernetes-bible/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/11.png' align='centre' height='150'>
   </a>
 </p>
