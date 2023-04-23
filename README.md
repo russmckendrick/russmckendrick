@@ -53,6 +53,7 @@ I work almost exclusively with Linux, using open-source systems and tools across
   <a href="https://www.packtpub.com/networking-and-servers/extending-docker/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/03.jpg' align='centre' height='150'>
   </a>
+  <br>
   <a href="https://www.packtpub.com/virtualization-and-cloud/docker-bootcamp/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/04.jpg' align='centre' height='150'>
   </a>
@@ -62,6 +63,7 @@ I work almost exclusively with Linux, using open-source systems and tools across
   <a href="https://www.packtpub.com/networking-and-servers/kubernetes-serverless-applications/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/06.jpg' align='centre' height='150'>
   </a>
+  <br>
   <a href="https://www.packtpub.com/virtualization-and-cloud/learn-ansible/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/07.png' align='centre' height='150'>
   </a>
@@ -71,6 +73,7 @@ I work almost exclusively with Linux, using open-source systems and tools across
   <a href="https://www.packtpub.com/networking-and-servers/docker-high-performance-second-edition/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/09.png' align='centre' height='150'>
   </a>
+  <br>
   <a href="https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition/">
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/10.jpg' align='centre' height='150'>
   </a>
