@@ -78,7 +78,7 @@ I work almost exclusively with Linux, using open-source systems and tools across
     <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/11.png' align='centre' height='150'>
   </a>
   <a href="https://www.packtpub.com/product/infrastructure-as-code-for-beginners/9781837631636">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/11.jpg' align='centre' height='150'>
+    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/12.jpg' align='centre' height='150'>
   </a>
 </p>
 
