@@ -43,47 +43,12 @@ I am an experienced DevOps practitioner and system administrator with a passion 
 
 I work almost exclusively with Linux, using open-source systems and tools across both dedicated hardware and virtual machines hosted in public and private clouds at [Node4](https://www.node4.co.uk/) company, where I am the Practice Manager of SRE & DevOps.
 
-<p align="center">
-  <a href="https://www.packtpub.com/virtualization-and-cloud/monitoring-docker/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/02.jpg' align='centre' height='150'>
-  </a>
-  <a href="https://thenewstack.io/ebooks/docker-and-containers/monitoring-management-docker-containers/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/01.png' align='centre' height='150'>
-  </a>
-  <a href="https://www.packtpub.com/networking-and-servers/extending-docker/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/03.jpg' align='centre' height='150'>
-  </a>
-  <br>
-  <a href="https://www.packtpub.com/virtualization-and-cloud/docker-bootcamp/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/04.jpg' align='centre' height='150'>
-  </a>
-  <a href="https://www.packtpub.com/virtualization-and-cloud/mastering-docker-second-edition">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/05.jpg' align='centre' height='150'>
-  </a>
-  <a href="https://www.packtpub.com/networking-and-servers/kubernetes-serverless-applications/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/06.jpg' align='centre' height='150'>
-  </a>
-  <br>
-  <a href="https://www.packtpub.com/virtualization-and-cloud/learn-ansible/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/07.png' align='centre' height='150'>
-  </a>
-  <a href="https://www.packtpub.com/virtualization-and-cloud/mastering-docker-third-edition/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/08.jpg' align='centre' height='150'>
-  </a>
-  <a href="https://www.packtpub.com/networking-and-servers/docker-high-performance-second-edition/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/09.png' align='centre' height='150'>
-  </a>
-  <br>
-  <a href="https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/10.jpg' align='centre' height='150'>
-  </a>
-  <a href="https://www.packtpub.com/product/the-kubernetes-bible/">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/11.png' align='centre' height='150'>
-  </a>
-  <a href="https://www.packtpub.com/product/infrastructure-as-code-for-beginners/9781837631636">
-    <img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/12.jpg' align='centre' height='150'>
-  </a>
-</p>
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+| <a href="https://www.packtpub.com/virtualization-and-cloud/monitoring-docker/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/02.jpg' align='centre' width='600'></a> | <a href="https://thenewstack.io/ebooks/docker-and-containers/monitoring-management-docker-containers/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/01.png' align='centre' width='600'></a> | <a href="https://www.packtpub.com/networking-and-servers/extending-docker/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/03.jpg' align='centre' width='600'></a>|
+|<a href="https://www.packtpub.com/virtualization-and-cloud/docker-bootcamp/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/04.jpg' align='centre' width='600'></a> |<a href="https://www.packtpub.com/virtualization-and-cloud/mastering-docker-second-edition"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/05.jpg' align='centre' width='600'></a>|<a href="https://www.packtpub.com/networking-and-servers/kubernetes-serverless-applications/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/06.jpg' align='centre' width='600'></a> |<a href="https://www.packtpub.com/virtualization-and-cloud/learn-ansible/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/07.png' align='centre' width='600'></a>| <a href="https://www.packtpub.com/virtualization-and-cloud/mastering-docker-third-edition/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/08.jpg' align='centre' width='600'></a>|
+|<a href="https://www.packtpub.com/networking-and-servers/docker-high-performance-second-edition/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/09.png' align='centre' width='600'></a>|<a href="https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/10.jpg' align='centre' width='600'></a>|<a href="https://www.packtpub.com/product/the-kubernetes-bible/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/11.png' align='centre' width='600'></a>
+|<a href="https://www.packtpub.com/product/infrastructure-as-code-for-beginners/9781837631636"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/12.jpg' align='centre' width='600'></a>|
 
 In my spare time, I have written and contributed to eleven books "[Monitoring Docker](https://www.packtpub.com/virtualization-and-cloud/monitoring-docker)", "[Extending Docker](https://www.packtpub.com/networking-and-servers/extending-docker)", "[Docker Bootcamp](https://www.packtpub.com/virtualization-and-cloud/docker-bootcamp)", "[Mastering Docker - Second Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-second-edition)", "[Kubernetes for Serverless Applications](https://www.packtpub.com/networking-and-servers/kubernetes-serverless-applications)", "[Mastering Docker - Third Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-third-edition)", "[Learn Ansible](https://www.packtpub.com/virtualization-and-cloud/learn-ansible)" and have contributed to "[Docker High Performance - Second Edition](https://www.packtpub.com/networking-and-servers/docker-high-performance-second-edition)", "[Mastering Docker - Fourth Edition](https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition)", "[The Kubernetes Bible](https://www.packtpub.com/product/the-kubernetes-bible/)" "[Infrastructure as Code for Beginners](https://www.packtpub.com/product/infrastructure-as-code-for-beginners/9781837631636)" and which are all available now and are published by [Packt Publishing](https://www.packtpub.com/). Also, "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/).
 
