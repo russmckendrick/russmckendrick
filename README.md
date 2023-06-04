@@ -17,6 +17,11 @@ All books were published by [Packt Publishing](https://www.packtpub.com/), excep
 
 ## Blog posts 📄
 <!-- BLOG-POST-LIST:START -->
+- [Infrastructure as Code for Beginners is out now](https://www.russ.foo/2023/06/04/infrastructure-as-code-for-beginners-is-out-now/)
+- [Ansible setup with Azure on a new Mac](https://www.russ.foo/2021/12/28/ansible-setup-with-azure-on-a-new-mac/)
+- [VSCode + Bicep on an M1 Mac](https://www.russ.foo/2021/12/04/vscode--bicep-on-an-m1-mac/)
+- [Managing Python on macOS Monterey](https://www.russ.foo/2021/10/30/managing-python-on-macos-monterey/)
+- [Running Podman on macOS](https://www.russ.foo/2021/09/12/running-podman-on-macos/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect with me 📇
