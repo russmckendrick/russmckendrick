@@ -34,7 +34,7 @@
     <a href="https://www.last.fm/user/RussMckendrick">
         <img src="https://img.shields.io/badge/-Last.FM-D51007?style=flat&amp;labelColor=D51007&amp;logo=Last.FM&amp;logoColor=white" alt="Last.FM">
     </a>
-    <a href="https://www.mediaglasses.blog/">
+    <a href="https://www.russ.foo/">
         <img src="https://img.shields.io/badge/-Blog-738A94?style=flat&amp;labelColor=738A94&amp;logo=Ghost&amp;logoColor=white" alt="Blog">
     </a>
 </p>
@@ -49,8 +49,20 @@ I work almost exclusively with Linux, using open-source systems and tools across
 |<a href="https://www.packtpub.com/networking-and-servers/docker-high-performance-second-edition/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/09.png' align='centre' width='600'></a>|<a href="https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/10.jpg' align='centre' width='600'></a>|<a href="https://www.packtpub.com/product/the-kubernetes-bible/"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/11.png' align='centre' width='600'></a>
 | |<a href="https://www.packtpub.com/product/infrastructure-as-code-for-beginners/9781837631636"><img src='https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/12.jpg' align='centre' width='600'></a>| |
 
-In my spare time, I have written and contributed to eleven books "[Monitoring Docker](https://www.packtpub.com/virtualization-and-cloud/monitoring-docker)", "[Extending Docker](https://www.packtpub.com/networking-and-servers/extending-docker)", "[Docker Bootcamp](https://www.packtpub.com/virtualization-and-cloud/docker-bootcamp)", "[Mastering Docker - Second Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-second-edition)", "[Kubernetes for Serverless Applications](https://www.packtpub.com/networking-and-servers/kubernetes-serverless-applications)", "[Mastering Docker - Third Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-third-edition)", "[Learn Ansible](https://www.packtpub.com/virtualization-and-cloud/learn-ansible)" and have contributed to "[Docker High Performance - Second Edition](https://www.packtpub.com/networking-and-servers/docker-high-performance-second-edition)", "[Mastering Docker - Fourth Edition](https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition)", "[The Kubernetes Bible](https://www.packtpub.com/product/the-kubernetes-bible/)" "[Infrastructure as Code for Beginners](https://www.packtpub.com/product/infrastructure-as-code-for-beginners/9781837631636)" and which are all available now and are published by [Packt Publishing](https://www.packtpub.com/). Also, "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/).
+In my spare time, I have written and contributed to twelve books ... 
+
+- "[Monitoring Docker](https://www.packtpub.com/virtualization-and-cloud/monitoring-docker)"
+- "[Extending Docker](https://www.packtpub.com/networking-and-servers/extending-docker)"
+- "[Docker Bootcamp](https://www.packtpub.com/virtualization-and-cloud/docker-bootcamp)"
+- "[Mastering Docker - Second Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-second-edition)"
+- "[Kubernetes for Serverless Applications](https://www.packtpub.com/networking-and-servers/kubernetes-serverless-applications)"
+- "[Mastering Docker - Third Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-third-edition)"
+- "[Learn Ansible](https://www.packtpub.com/virtualization-and-cloud/learn-ansible)"
+- "[Docker High Performance - Second Edition](https://www.packtpub.com/networking-and-servers/docker-high-performance-second-edition)"
+- "[Mastering Docker - Fourth Edition](https://www.packtpub.com/gb/cloud-networking/mastering-docker-fourth-edition)"
+- "[The Kubernetes Bible](https://www.packtpub.com/product/the-kubernetes-bible/)"
+- "[Infrastructure as Code for Beginners](https://www.packtpub.com/product/infrastructure-as-code-for-beginners/9781837631636)"
+
+These are all available now and are published by [Packt Publishing](https://www.packtpub.com/). Also, "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/).
 
 I also buy way too many [records](https://www.mckendrick.rocks/).
-
-<link rel="me" href="https://social.mckendrick.io/@russ">
