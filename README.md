@@ -1,4 +1,4 @@
-# Hi there 👋, I'm Russ McKendrick
+# Hi there ![Hi](https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/wave.gif), I'm Russ McKendrick
 
 ## About me 🙎‍♂️
 Hello! I'm Russ, an IT professional with a strong background in DevOps and system administration. I've spent the last 25 years working in various IT roles across multiple industries. I have a deep passion for Linux, open-source systems, automation, and containers. I currently serve as the Practice Manager of SRE & DevOps at [Node4](https://www.node4.co.uk/), managing projects across public and private clouds.
