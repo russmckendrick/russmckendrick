@@ -1,43 +1,17 @@
 ### Hi there 👋, I'm Russ McKendrick
 
-<p align="center">
-    <a href="https://github.com/russmckendrick">
-        <img src="https://img.shields.io/badge/-Github-000?style=flat&amp;logo=Github&amp;logoColor=white" alt="Github">
-    </a> 
-    <a href="https://twitter.com/russmckendrick/">
-        <img src="https://img.shields.io/badge/-Twitter-1da1f2?style=flat&amp;logo=Twitter&amp;logoColor=white" alt="Github">
-    </a> 
-    <a rel="me" href="https://social.mckendrick.io/@russ">
-        <img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109285992453842904?domain=https%3A%2F%2Fsocial.mckendrick.io">
-    </a>
-    <a href="https://www.linkedin.com/in/russmckendrick/">
-        <img src="https://img.shields.io/badge/-LinkedIn-0077b5?style=flat&amp;logo=Linkedin&amp;logoColor=white" alt="Linkedin">
-    </a> 
-    <a href="https://www.amazon.com/author/russmckendrick">
-        <img src="https://img.shields.io/badge/-Amazon-ff9900?style=flat&amp;logo=Amazon&amp;logoColor=white" alt="Amazon">
-    </a> 
-    <a href="https://hub.docker.com/u/russmckendrick/">
-        <img src="https://img.shields.io/badge/-Docker-0db7ed?style=flat&amp;labelColor=0db7ed&amp;logo=docker&amp;logoColor=white" alt="Docker">
-    </a> 
-    <a href="https://www.instagram.com/russmckendrick/">
-        <img src="https://img.shields.io/badge/-Instagram-e1306c?style=flat&amp;labelColor=e1306c&amp;logo=Instagram&amp;logoColor=white" alt="Instagram">
-    </a> 
-    <a href="https://russmckendrick.medium.com/">
-        <img src="https://img.shields.io/badge/-Medium-00ab6c?style=flat&amp;labelColor=00ab6c&amp;logo=Medium&amp;logoColor=white" alt="Medium">
-    </a> 
-    <a href="https://www.discogs.com/user/russmck/collection?header=1">
-        <img src="https://img.shields.io/badge/-Discogs-333333?style=flat&amp;labelColor=333333&amp;logo=Discogs&amp;logoColor=white" alt="Discogs">
-    </a> 
-    <a href="https://open.spotify.com/user/russmckendrick">
-        <img src="https://img.shields.io/badge/-Spotify-1db954?style=flat&amp;labelColor=1db954&amp;logo=Spotify&amp;logoColor=white" alt="Spotify">
-    </a>
-    <a href="https://www.last.fm/user/RussMckendrick">
-        <img src="https://img.shields.io/badge/-Last.FM-D51007?style=flat&amp;labelColor=D51007&amp;logo=Last.FM&amp;logoColor=white" alt="Last.FM">
-    </a>
-    <a href="https://www.russ.foo/">
-        <img src="https://img.shields.io/badge/-Blog-738A94?style=flat&amp;labelColor=738A94&amp;logo=Ghost&amp;logoColor=white" alt="Blog">
-    </a>
-</p>
+[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/russmckendrick)
+[![Twitter](https://img.shields.io/badge/-Twitter-1da1f2?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/russmckendrick/)
+[![Mastodon Follow](https://img.shields.io/mastodon/follow/109285992453842904?domain=https%3A%2F%2Fsocial.mckendrick.io)](https://social.mckendrick.io/@russ)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077b5?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/russmckendrick/)
+[![Amazon](https://img.shields.io/badge/-Amazon-ff9900?style=flat&logo=Amazon&logoColor=white)](https://www.amazon.com/author/russmckendrick)
+[![Docker](https://img.shields.io/badge/-Docker-0db7ed?style=flat&labelColor=0db7ed&logo=docker&logoColor=white)](https://hub.docker.com/u/russmckendrick/)
+[![Instagram](https://img.shields.io/badge/-Instagram-e1306c?style=flat&labelColor=e1306c&logo=Instagram&logoColor=white)](https://www.instagram.com/russmckendrick/)
+[![Medium](https://img.shields.io/badge/-Medium-00ab6c?style=flat&labelColor=00ab6c&logo=Medium&logoColor=white)](https://russmckendrick.medium.com/)
+[![Discogs](https://img.shields.io/badge/-Discogs-333333?style=flat&labelColor=333333&logo=Discogs&logoColor=white)](https://www.discogs.com/user/russmck/collection?header=1)
+[![Spotify](https://img.shields.io/badge/-Spotify-1db954?style=flat&labelColor=1db954&logo=Spotify&logoColor=white)](https://open.spotify.com/user/russmckendrick)
+[![Last.FM](https://img.shields.io/badge/-Last.FM-D51007?style=flat&labelColor=D51007&logo=Last.FM&logoColor=white)](https://www.last.fm/user/RussMckendrick)
+[![Blog](https://img.shields.io/badge/-Blog-738A94?style=flat&labelColor=738A94&logo=Ghost&logoColor=white)](https://www.russ.foo/)
 
 I am an experienced DevOps practitioner and system administrator with a passion for automation and containers. I have been working in IT and related industries for the better part of 25 years. During my career, I have had varied responsibilities in many different sectors, ranging from looking after an entire IT infrastructure to providing first-line, second-line, and senior support in both client-facing and internal teams for small and large organisations.
 
