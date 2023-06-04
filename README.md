@@ -19,3 +19,7 @@ In my spare time, I have written and contributed to twelve books ...
 These were all published by [Packt Publishing](https://www.packtpub.com/), apart from "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/).
 
 I also buy way too many [records](https://www.mckendrick.rocks/).
+
+# Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
