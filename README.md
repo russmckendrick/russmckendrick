@@ -1,4 +1,4 @@
-# Hi there ![Hi](https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/wave.gif), I'm Russ McKendrick
+# Hi there <img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/wave.gif" height="50" alt="Hello there">, I'm Russ McKendrick
 
 ## About me 🙎‍♂️
 Hello! I'm Russ, an IT professional with a strong background in DevOps and system administration. I've spent the last 25 years working in various IT roles across multiple industries. I have a deep passion for Linux, open-source systems, automation, and containers. I currently serve as the Practice Manager of SRE & DevOps at [Node4](https://www.node4.co.uk/), managing projects across public and private clouds.
@@ -15,7 +15,7 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 
 All books were published by [Packt Publishing](https://www.packtpub.com/), except for "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/).
 
-## Blog posts 📄
+## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
 - [Infrastructure as Code for Beginners is out now](https://www.russ.foo/2023/06/04/infrastructure-as-code-for-beginners-is-out-now/)
 - [Ansible setup with Azure on a new Mac](https://www.russ.foo/2021/12/28/ansible-setup-with-azure-on-a-new-mac/)
@@ -24,6 +24,6 @@ All books were published by [Packt Publishing](https://www.packtpub.com/), excep
 - [Running Podman on macOS](https://www.russ.foo/2021/09/12/running-podman-on-macos/)
 <!-- BLOG-POST-LIST:END -->
 
-## Connect with me 📇
+## Connect with me 📨
 |[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/russmckendrick) [![Twitter](https://img.shields.io/badge/-Twitter-1da1f2?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/russmckendrick/) [![Mastodon Follow](https://img.shields.io/mastodon/follow/109285992453842904?domain=https%3A%2F%2Fsocial.mckendrick.io)](https://social.mckendrick.io/@russ) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077b5?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/russmckendrick/) [![Amazon](https://img.shields.io/badge/-Amazon-ff9900?style=flat&logo=Amazon&logoColor=white)](https://www.amazon.com/author/russmckendrick) [![Docker](https://img.shields.io/badge/-Docker-0db7ed?style=flat&labelColor=0db7ed&logo=docker&logoColor=white)](https://hub.docker.com/u/russmckendrick/) [![Instagram](https://img.shields.io/badge/-Instagram-e1306c?style=flat&labelColor=e1306c&logo=Instagram&logoColor=white)](https://www.instagram.com/russmckendrick/) [![Medium](https://img.shields.io/badge/-Medium-00ab6c?style=flat&labelColor=00ab6c&logo=Medium&logoColor=white)](https://russmckendrick.medium.com/) [![Discogs](https://img.shields.io/badge/-Discogs-333333?style=flat&labelColor=333333&logo=Discogs&logoColor=white)](https://www.discogs.com/user/russmckend/collection?header=1) [![Spotify](https://img.shields.io/badge/-Spotify-1db954?style=flat&labelColor=1db954&logo=Spotify&logoColor=white)](https://open.spotify.com/user/russmckendrick) [![Last.FM](https://img.shields.io/badge/-Last.FM-D51007?style=flat&labelColor=D51007&logo=Last.FM&logoColor=white)](https://www.last.fm/user/RussMckendrick) [![Blog](https://img.shields.io/badge/-Blog-738A94?style=flat&labelColor=738A94&logo=Ghost&logoColor=white)](https://www.russ.foo/) |
 |:------:|
