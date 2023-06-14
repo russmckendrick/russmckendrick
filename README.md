@@ -18,10 +18,10 @@ All books were published by [Packt Publishing](https://www.packtpub.com/), excep
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
 - [Revisting Podman](https://www.russ.foo/2023/06/14/revisting-podman/)
+- [What did I listen to in week 23?](https://www.russ.foo/2023/06/05/what-did-i-listen-to-in-week-23/)
 - [Infrastructure as Code for Beginners is out now](https://www.russ.foo/2023/06/04/infrastructure-as-code-for-beginners-is-out-now/)
-- [Ansible setup with Azure on a new Mac](https://www.russ.foo/2021/12/28/ansible-setup-with-azure-on-a-new-mac/)
-- [VSCode + Bicep on an M1 Mac](https://www.russ.foo/2021/12/04/vscode--bicep-on-an-m1-mac/)
-- [Managing Python on macOS Monterey](https://www.russ.foo/2021/10/30/managing-python-on-macos-monterey/)
+- [What did I listen to in week 22?](https://www.russ.foo/2023/05/29/what-did-i-listen-to-in-week-22/)
+- [What did I listen to in week 21?](https://www.russ.foo/2023/05/22/what-did-i-listen-to-in-week-21/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect with me 📨
