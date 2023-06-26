@@ -17,11 +17,11 @@ All books were published by [Packt Publishing](https://www.packtpub.com/), excep
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [What did I listen to in week 25?](https://www.russ.foo/2023/06/19/what-did-i-listen-to-in-week-25/)
 - [Revisting Podman](https://www.russ.foo/2023/06/14/revisting-podman/)
 - [What did I listen to in week 24?](https://www.russ.foo/2023/06/12/what-did-i-listen-to-in-week-24/)
 - [What did I listen to in week 23?](https://www.russ.foo/2023/06/05/what-did-i-listen-to-in-week-23/)
 - [Infrastructure as Code for Beginners is out now](https://www.russ.foo/2023/06/04/infrastructure-as-code-for-beginners-is-out-now/)
-- [What did I listen to in week 22?](https://www.russ.foo/2023/05/29/what-did-i-listen-to-in-week-22/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect with me 📨
