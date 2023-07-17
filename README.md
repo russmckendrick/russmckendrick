@@ -18,10 +18,10 @@ All books were published by [Packt Publishing](https://www.packtpub.com/), excep
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
 - [Playing with Aider Chat](https://www.russ.foo/2023/07/15/playing-with-aider-chat/)
+- [What did I listen to in week 28?](https://www.russ.foo/2023/07/10/what-did-i-listen-to-in-week-28/)
 - [What did I listen to in week 27?](https://www.russ.foo/2023/07/03/what-did-i-listen-to-in-week-27/)
 - [What did I listen to in week 26?](https://www.russ.foo/2023/06/26/what-did-i-listen-to-in-week-26/)
 - [What did I listen to in week 25?](https://www.russ.foo/2023/06/19/what-did-i-listen-to-in-week-25/)
-- [Revisting Podman](https://www.russ.foo/2023/06/14/revisting-podman/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect with me 📨
