@@ -17,11 +17,11 @@ All books were published by [Packt Publishing](https://www.packtpub.com/), excep
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [What did I listen to in week 36?](https://www.russ.foo/2023/09/11/what-did-i-listen-to-in-week-36/)
 - [What did I listen to in week 35?](https://www.russ.foo/2023/09/04/what-did-i-listen-to-in-week-35/)
 - [What did I listen to in week 34?](https://www.russ.foo/2023/08/28/what-did-i-listen-to-in-week-34/)
 - [What did I listen to in week 33?](https://www.russ.foo/2023/08/21/what-did-i-listen-to-in-week-33/)
 - [What did I listen to in week 32?](https://www.russ.foo/2023/08/14/what-did-i-listen-to-in-week-32/)
-- [What did I listen to in week 31?](https://www.russ.foo/2023/08/07/what-did-i-listen-to-in-week-31/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect with me 📨
