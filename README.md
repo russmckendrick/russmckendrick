@@ -17,11 +17,11 @@ All books were published by [Packt Publishing](https://www.packtpub.com/), excep
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [Updating my dotfiles](https://www.russ.foo/2024/04/02/updating-my-dotfiles/)
 - [Saving money with Azure Logic Apps](https://www.russ.foo/2024/04/01/saving-money-with-azure-logic-apps/)
 - [Running LLMs locally with Ollama](https://www.russ.foo/2024/03/29/running-llms-locally-with-ollama/)
 - [My Top 10 of 2023](https://www.russ.foo/2023/12/23/my-top-10-of-2023/)
 - [Playing with Aider Chat](https://www.russ.foo/2023/07/15/playing-with-aider-chat/)
-- [Revisting Podman](https://www.russ.foo/2023/06/14/revisting-podman/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect with me 📨
