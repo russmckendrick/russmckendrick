@@ -17,7 +17,7 @@ All books were published by [Packt Publishing](https://www.packtpub.com/), excep
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
-- [Effortless Python environment management on macOS with Conda](https://www.russ.foo/2024/04/06/effortless-python-environment-management-on-macos-with-conda/)
+- [Conda for Python environment management on macOS](https://www.russ.foo/2024/04/06/conda-for-python-environment-management-on-macos/)
 - [Updating my dotfiles](https://www.russ.foo/2024/04/02/updating-my-dotfiles/)
 - [Saving money with Azure Logic Apps](https://www.russ.foo/2024/04/01/saving-money-with-azure-logic-apps/)
 - [Running LLMs locally with Ollama](https://www.russ.foo/2024/03/29/running-llms-locally-with-ollama/)
