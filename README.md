@@ -17,11 +17,11 @@ All books were published by [Packt Publishing](https://www.packtpub.com/), excep
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [Installing and running InvokeAI on macOS](https://www.russ.foo/2024/04/14/installing-and-running-invokeai-on-macos/)
 - [Conda for Python environment management on macOS](https://www.russ.foo/2024/04/06/conda-for-python-environment-management-on-macos/)
 - [Updating my dotfiles](https://www.russ.foo/2024/04/02/updating-my-dotfiles/)
 - [Saving money with Azure Logic Apps](https://www.russ.foo/2024/04/01/saving-money-with-azure-logic-apps/)
 - [Running LLMs locally with Ollama](https://www.russ.foo/2024/03/29/running-llms-locally-with-ollama/)
-- [My Top 10 of 2023](https://www.russ.foo/2023/12/23/my-top-10-of-2023/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Connect with me 📨
