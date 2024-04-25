@@ -5,6 +5,15 @@ Hello! I'm Russ, an IT professional with a strong background in DevOps and syste
 
 Apart from my work, I have written and contributed to twelve books primarily revolving around container technologies and automation. In my downtime, I enjoy expanding my [vinyl record collection](https://www.mckendrick.rocks/).
 
+## Blog posts 🧑‍💻
+<!-- BLOG-POST-LIST:START -->
+- [Installing and running InvokeAI on macOS](https://www.russ.foo/2024/04/14/installing-and-running-invokeai-on-macos/)
+- [Conda for Python environment management on macOS](https://www.russ.foo/2024/04/06/conda-for-python-environment-management-on-macos/)
+- [Updating my dotfiles](https://www.russ.foo/2024/04/02/updating-my-dotfiles/)
+- [Saving money with Azure Logic Apps](https://www.russ.foo/2024/04/01/saving-money-with-azure-logic-apps/)
+- [Running LLMs locally with Ollama](https://www.russ.foo/2024/03/29/running-llms-locally-with-ollama/)
+<!-- BLOG-POST-LIST:END -->
+
 ## Publications 📚
 
 | [![](https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/02.jpg)](https://www.packtpub.com/virtualization-and-cloud/monitoring-docker/) | [![](https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/01.png)](https://thenewstack.io/ebooks/docker-and-containers/monitoring-management-docker-containers/) | [![](https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/03.jpg)](https://www.packtpub.com/networking-and-servers/extending-docker/) |
@@ -15,15 +24,6 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 | ![](https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/blank.png) | [![](https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/13.jpg)](https://www.packtpub.com/product/learn-ansible-second-edition/9781835088913) | ![](https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/blank.png) |
 
 All books were published by [Packt Publishing](https://www.packtpub.com/), except for "[Monitoring and Management With Docker and Containers](https://thenewstack.io/identifying-collecting-container-data/)", which was published by [The New Stack](https://thenewstack.io/).
-
-## Blog posts 🧑‍💻
-<!-- BLOG-POST-LIST:START -->
-- [Installing and running InvokeAI on macOS](https://www.russ.foo/2024/04/14/installing-and-running-invokeai-on-macos/)
-- [Conda for Python environment management on macOS](https://www.russ.foo/2024/04/06/conda-for-python-environment-management-on-macos/)
-- [Updating my dotfiles](https://www.russ.foo/2024/04/02/updating-my-dotfiles/)
-- [Saving money with Azure Logic Apps](https://www.russ.foo/2024/04/01/saving-money-with-azure-logic-apps/)
-- [Running LLMs locally with Ollama](https://www.russ.foo/2024/03/29/running-llms-locally-with-ollama/)
-<!-- BLOG-POST-LIST:END -->
 
 ## Connect with me 📨
 |[![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/russmckendrick) [![Twitter](https://img.shields.io/badge/-Twitter-1da1f2?style=flat&logo=Twitter&logoColor=white)](https://twitter.com/russmckendrick/) [![Mastodon Follow](https://img.shields.io/mastodon/follow/109285992453842904?domain=https%3A%2F%2Fsocial.mckendrick.io)](https://social.mckendrick.io/@russ) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077b5?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/russmckendrick/) [![Amazon](https://img.shields.io/badge/-Amazon-ff9900?style=flat&logo=Amazon&logoColor=white)](https://www.amazon.com/author/russmckendrick) [![Docker](https://img.shields.io/badge/-Docker-0db7ed?style=flat&labelColor=0db7ed&logo=docker&logoColor=white)](https://hub.docker.com/u/russmckendrick/) [![Instagram](https://img.shields.io/badge/-Instagram-e1306c?style=flat&labelColor=e1306c&logo=Instagram&logoColor=white)](https://www.instagram.com/russmckendrick/) [![Medium](https://img.shields.io/badge/-Medium-00ab6c?style=flat&labelColor=00ab6c&logo=Medium&logoColor=white)](https://russmckendrick.medium.com/) [![Discogs](https://img.shields.io/badge/-Discogs-333333?style=flat&labelColor=333333&logo=Discogs&logoColor=white)](https://www.discogs.com/user/russmckend/collection?header=1) [![Spotify](https://img.shields.io/badge/-Spotify-1db954?style=flat&labelColor=1db954&logo=Spotify&logoColor=white)](https://open.spotify.com/user/russmckendrick) [![Last.FM](https://img.shields.io/badge/-Last.FM-D51007?style=flat&labelColor=D51007&logo=Last.FM&logoColor=white)](https://www.last.fm/user/RussMckendrick) [![Blog](https://img.shields.io/badge/-Blog-738A94?style=flat&labelColor=738A94&logo=Ghost&logoColor=white)](https://www.russ.foo/) |
