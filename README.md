@@ -7,11 +7,11 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [Day to Days Tools, the 2024 edition](https://www.russ.foo/2024/06/16/day-to-days-tools-the-2024-edition/)
 - [Updating my blog using CrewAI](https://www.russ.foo/2024/05/06/updating-my-blog-using-crewai/)
 - [Announcing the second edition of Learn Ansible](https://www.russ.foo/2024/04/21/announcing-the-second-edition-of-learn-ansible/)
 - [Installing and running InvokeAI on macOS](https://www.russ.foo/2024/04/14/installing-and-running-invokeai-on-macos/)
 - [Conda for Python environment management on macOS](https://www.russ.foo/2024/04/06/conda-for-python-environment-management-on-macos/)
-- [Updating my dotfiles](https://www.russ.foo/2024/04/02/updating-my-dotfiles/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Publications 📚
