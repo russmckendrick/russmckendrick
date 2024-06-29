@@ -7,7 +7,7 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
-- [Azure DevOps Ansible Pipeline Updated; Boosting Efficiency with Caching](https://www.russ.foo/2024/06/28/azure-devops-ansible-pipeline-updated-boosting-efficiency-with-caching/)
+- [Azure DevOps Ansible Pipeline; Boosting Efficiency with Caching](https://www.russ.foo/2024/06/28/azure-devops-ansible-pipeline-boosting-efficiency-with-caching/)
 - [Day to Day Tools, the 2024 edition](https://www.russ.foo/2024/06/16/day-to-day-tools-the-2024-edition/)
 - [Updating my blog using CrewAI](https://www.russ.foo/2024/05/06/updating-my-blog-using-crewai/)
 - [Announcing the second edition of Learn Ansible](https://www.russ.foo/2024/04/21/announcing-the-second-edition-of-learn-ansible/)
