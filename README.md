@@ -7,11 +7,11 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [Dynamic Network Config in Ansible: Local to Azure VNet](https://www.russ.cloud/2024/09/21/dynamic-network-config-in-ansible-local-to-azure-vnet/)
 - [How to Install Ansible on a Mac: A Modern Approach](https://www.russ.cloud/2024/09/15/how-to-install-ansible-on-a-mac-a-modern-approach/)
 - [Unlocking Image Creation with Flux and GPT-4o](https://www.russ.cloud/2024/08/11/unlocking-image-creation-with-flux-and-gpt-4o/)
 - [Behind the Scenes; More than just a background](https://www.russ.cloud/2024/08/04/behind-the-scenes-more-than-just-a-background/)
 - [Generating an Azure Storage Account SAS token using Azure Logic and Function apps](https://www.russ.cloud/2024/07/27/generating-an-azure-storage-account-sas-token-using-azure-logic-and-function-apps/)
-- [Azure Firewall KQL Query](https://www.russ.cloud/2024/07/20/azure-firewall-kql-query/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Publications 📚
