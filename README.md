@@ -7,11 +7,11 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [Personal Project Updates and AI Editors](https://www.russ.cloud/2025/01/12/personal-project-updates-and-ai-editors/)
 - [My 2024 Top 20&lpar;ish&rpar;](https://www.russ.cloud/2024/12/27/my-2024-top-20ish/)
 - [Running Flux on macOS](https://www.russ.cloud/2024/11/24/running-flux-on-macos/)
 - [Zsh Conda Environment Selector Function](https://www.russ.cloud/2024/11/17/zsh-conda-environment-selector-function/)
 - [Vinyl Scrobbling macOS App](https://www.russ.cloud/2024/10/28/vinyl-scrobbling-macos-app/)
-- [Dynamic Network Config in Ansible: Local to Azure VNet](https://www.russ.cloud/2024/09/21/dynamic-network-config-in-ansible-local-to-azure-vnet/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Publications 📚
