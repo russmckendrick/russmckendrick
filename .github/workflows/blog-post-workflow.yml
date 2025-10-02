@@ -16,5 +16,5 @@ jobs:
       - name: Pull in russ.foo posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://www.russ.foo/index.xml"
+          feed_list: "https://www.russ.cloud/rss.xml"
           commit_message: "🤖 Updated README with the latest blog posts"
