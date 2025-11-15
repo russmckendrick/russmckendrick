@@ -7,11 +7,11 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [My Starship Prompt Setup](https://www.russ.cloud/2025/11/15/my-starship-prompt-setup/)
 - [Rotating Azure DevOps SSH Keys: How to Update Your Git Remotes and SSH Config](https://www.russ.cloud/2025/10/27/rotating-azure-devops-ssh-keys-how-to-update-your-git-remotes-and-ssh-config/)
 - [A new coat of paint](https://www.russ.cloud/2025/10/12/a-new-coat-of-paint/)
 - [Install n8n locally using Cloudflare](https://www.russ.cloud/2025/10/04/install-n8n-locally-using-cloudflare/)
 - [Doom or Vibe Coding](https://www.russ.cloud/2025/05/26/doom-or-vibe-coding/)
-- [Personal Project Updates and AI Editors](https://www.russ.cloud/2025/01/12/personal-project-updates-and-ai-editors/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Publications 📚
