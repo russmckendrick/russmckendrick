@@ -7,11 +7,11 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [When the Sandworm Came for My Secrets: Lessons from Shai-Hulud 2.0](https://www.russ.cloud/2025/11/29/when-the-sandworm-came-for-my-secrets-lessons-from-shai-hulud-20/)
 - [Playing with Nano Banana Pro: AI-Powered Album Cover Collages](https://www.russ.cloud/2025/11/23/playing-with-nano-banana-pro-ai-powered-album-cover-collages/)
 - [My Starship Prompt Setup](https://www.russ.cloud/2025/11/15/my-starship-prompt-setup/)
 - [Rotating Azure DevOps SSH Keys: How to Update Your Git Remotes and SSH Config](https://www.russ.cloud/2025/10/27/rotating-azure-devops-ssh-keys-how-to-update-your-git-remotes-and-ssh-config/)
 - [A new coat of paint](https://www.russ.cloud/2025/10/12/a-new-coat-of-paint/)
-- [Install n8n locally using Cloudflare](https://www.russ.cloud/2025/10/04/install-n8n-locally-using-cloudflare/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Publications 📚
