@@ -7,11 +7,11 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [Day to Day Tools, the 2025 edition](https://www.russ.cloud/2025/12/29/day-to-day-tools-the-2025-edition/)
 - [Save money by pausing Microsoft Fabric Capacities with Azure Logic Apps](https://www.russ.cloud/2025/12/21/save-money-by-pausing-microsoft-fabric-capacities-with-azure-logic-apps/)
 - [Azure Soft Delete: Recovering Resources and Preventing Accidental Deletions](https://www.russ.cloud/2025/12/05/azure-soft-delete-recovering-resources-and-preventing-accidental-deletions/)
 - [When the Sandworm Came for My Secrets: Lessons from Shai-Hulud 2.0](https://www.russ.cloud/2025/11/29/when-the-sandworm-came-for-my-secrets-lessons-from-shai-hulud-20/)
 - [Playing with Nano Banana Pro: AI-Powered Album Cover Collages](https://www.russ.cloud/2025/11/23/playing-with-nano-banana-pro-ai-powered-album-cover-collages/)
-- [My Starship Prompt Setup](https://www.russ.cloud/2025/11/15/my-starship-prompt-setup/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Publications 📚
