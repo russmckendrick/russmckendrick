@@ -7,11 +7,11 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [Creating Custom Skills for Copilot Cowork](https://www.russ.cloud/2026/04/03/creating-custom-skills-for-copilot-cowork/)
 - [Introducing ssl-toolkit](https://www.russ.cloud/2026/02/01/introducing-ssl-toolkit/)
 - [OpenClaw: Giving Claude a Body &lpar;and a Telegram Bot&rpar;](https://www.russ.cloud/2026/01/31/openclaw-giving-claude-a-body-and-a-telegram-bot/)
 - [Day to Day Tools, the 2025 edition](https://www.russ.cloud/2025/12/29/day-to-day-tools-the-2025-edition/)
 - [Save money by pausing Microsoft Fabric Capacities with Azure Logic Apps](https://www.russ.cloud/2025/12/21/save-money-by-pausing-microsoft-fabric-capacities-with-azure-logic-apps/)
-- [Azure Soft Delete: Recovering Resources and Preventing Accidental Deletions](https://www.russ.cloud/2025/12/05/azure-soft-delete-recovering-resources-and-preventing-accidental-deletions/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Publications 📚
