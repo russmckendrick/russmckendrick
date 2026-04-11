@@ -7,11 +7,11 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 
 ## Blog posts 🧑‍💻
 <!-- BLOG-POST-LIST:START -->
+- [Introducing AI Commit](https://www.russ.cloud/2026/04/11/introducing-ai-commit/)
 - [Introducing Hosts Butler](https://www.russ.cloud/2026/04/05/introducing-hosts-butler/)
 - [Creating Custom Skills for Copilot Cowork](https://www.russ.cloud/2026/04/03/creating-custom-skills-for-copilot-cowork/)
 - [Introducing ssl-toolkit](https://www.russ.cloud/2026/02/01/introducing-ssl-toolkit/)
 - [OpenClaw: Giving Claude a Body &lpar;and a Telegram Bot&rpar;](https://www.russ.cloud/2026/01/31/openclaw-giving-claude-a-body-and-a-telegram-bot/)
-- [Day to Day Tools, the 2025 edition](https://www.russ.cloud/2025/12/29/day-to-day-tools-the-2025-edition/)
 <!-- BLOG-POST-LIST:END -->
 
 ## Publications 📚
