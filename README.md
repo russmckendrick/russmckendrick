@@ -8,12 +8,9 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 You can find everything in one place at [russ.social](https://www.russ.social/).
 
 ## Latest blog posts 🧑‍💻
+The five most recent posts from [russ.cloud](https://www.russ.cloud/) — refreshed every hour.
+
 <!-- BLOG-POST-LIST:START -->
-- [Is my blog Agent-Ready?](https://www.russ.cloud/2026/04/19/is-my-blog-agent-ready/)
-- [Introducing AI Commit](https://www.russ.cloud/2026/04/11/introducing-ai-commit/)
-- [Introducing Hosts Butler](https://www.russ.cloud/2026/04/05/introducing-hosts-butler/)
-- [Creating Custom Skills for Copilot Cowork](https://www.russ.cloud/2026/04/03/creating-custom-skills-for-copilot-cowork/)
-- [Introducing ssl-toolkit](https://www.russ.cloud/2026/02/01/introducing-ssl-toolkit/)
 <!-- BLOG-POST-LIST:END -->
 
 ## On the turntable 🎵

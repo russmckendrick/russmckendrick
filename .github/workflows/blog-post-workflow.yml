@@ -1,10 +1,11 @@
 name: Latest blog post workflow
 on:
-  schedule: # Run workflow automatically
-    - cron: '0 * * * *' # Runs every hour, on the hour
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
 permissions:
-  contents: write # To write the generated contents to the readme
+  contents: write
 
 jobs:
   update-readme-with-blog:
@@ -12,9 +13,84 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Pull in russ.foo posts
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://www.russ.cloud/rss.xml"
-          commit_message: "🤖 Updated README with the latest blog posts"
+        uses: actions/checkout@v4
+
+      - name: Render blog post grid
+        run: |
+          python3 <<'PY'
+          import pathlib, re, urllib.request, xml.etree.ElementTree as ET
+          from html import escape as e
+
+          FEED = "https://www.russ.cloud/rss.xml"
+          COUNT = 5
+
+          def fetch(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "russmckendrick-readme-bot"})
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return r.read().decode("utf-8", errors="replace")
+
+          def og_image(post_url):
+              try:
+                  html = fetch(post_url)
+              except Exception:
+                  return None
+              # og:image must be followed by a quote, whitespace, or '>' — not ':' (e.g. og:image:alt)
+              tag_boundary = r'(?=["\'\s>])'
+              # property-before-content variants
+              for pattern in (
+                  rf'<meta[^>]+property=["\']?og:image{tag_boundary}[^>]*\bcontent=["\']([^"\']+)["\']',
+                  rf'<meta[^>]+property=["\']?og:image{tag_boundary}[^>]*\bcontent=(\S+)',
+                  rf'<meta[^>]+\bcontent=["\']([^"\']+)["\'][^>]*\bproperty=["\']?og:image{tag_boundary}',
+                  rf'<meta[^>]+\bcontent=(\S+?)\s[^>]*\bproperty=["\']?og:image{tag_boundary}',
+              ):
+                  m = re.search(pattern, html, re.IGNORECASE)
+                  if m:
+                      return m.group(1).strip().rstrip(">").strip('"\'')
+              return None
+
+          root = ET.fromstring(fetch(FEED))
+          items = root.findall("./channel/item")[:COUNT]
+
+          cards = []
+          for item in items:
+              title = (item.findtext("title") or "").strip()
+              link = (item.findtext("link") or "").strip()
+              img = og_image(link) or ""
+              cards.append((title, link, img))
+
+          img_row = " | ".join(
+              f'<a href="{e(link, quote=True)}"><img src="{e(img, quote=True)}" alt="{e(title, quote=True)}" width="220"/></a>'
+              for title, link, img in cards
+          )
+          align_row = "|".join([":---:"] * len(cards))
+          title_row = " | ".join(
+              f'<sub><a href="{e(link, quote=True)}"><b>{e(title)}</b></a></sub>'
+              for title, link, _ in cards
+          )
+          rendered = f"| {img_row} |\n|{align_row}|\n| {title_row} |"
+
+          readme = pathlib.Path("README.md")
+          text = readme.read_text()
+          block = f"<!-- BLOG-POST-LIST:START -->\n{rendered}\n<!-- BLOG-POST-LIST:END -->"
+          updated, n = re.subn(
+              r"<!-- BLOG-POST-LIST:START -->.*?<!-- BLOG-POST-LIST:END -->",
+              block,
+              text,
+              flags=re.DOTALL,
+          )
+          if n == 0:
+              raise SystemExit("BLOG-POST-LIST markers not found in README.md")
+          readme.write_text(updated)
+          PY
+
+      - name: Commit and push if changed
+        run: |
+          if [[ -n "$(git status --porcelain README.md)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "🤖 Updated README with the latest blog posts"
+            git push
+          else
+            echo "No changes to README.md"
+          fi
