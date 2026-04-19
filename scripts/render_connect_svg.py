@@ -134,22 +134,28 @@ def render_tile_svg(svc: dict) -> str:
 
 
 def build_readme_block() -> str:
-    sections = []
-    for cat in CATEGORIES:
-        items = [s for s in SERVICES if s["category"] == cat]
-        if not items:
-            continue
-        cells = "".join(
-            f'<td><a href="{escape(svc["url"], quote=True)}" target="_blank">'
-            f'<img src="{RAW_BASE}{svc["slug"]}.svg" width="160" '
-            f'alt="{escape(svc["label"])}"/></a></td>'
-            for svc in items
-        )
-        sections.append(
-            f'<p align="center"><sub><strong>{cat}</strong></sub></p>\n'
-            f'<div align="center"><table><tbody><tr>{cells}</tr></tbody></table></div>'
-        )
-    return "\n".join(sections)
+    cells_per_row = 5
+    total_rows = (len(SERVICES) + cells_per_row - 1) // cells_per_row
+    rows = []
+    for r in range(total_rows):
+        cells = []
+        for c in range(cells_per_row):
+            i = r * cells_per_row + c
+            if i >= len(SERVICES):
+                cells.append("<td></td>")
+                continue
+            svc = SERVICES[i]
+            cells.append(
+                f'<td><a href="{escape(svc["url"], quote=True)}" target="_blank">'
+                f'<img src="{RAW_BASE}{svc["slug"]}.svg" width="160" '
+                f'alt="{escape(svc["label"])}"/></a></td>'
+            )
+        rows.append("<tr>" + "".join(cells) + "</tr>")
+    return (
+        '<div align="center"><table><tbody>'
+        + "".join(rows)
+        + "</tbody></table></div>"
+    )
 
 
 def update_readme(html: str) -> None:
