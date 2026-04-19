@@ -139,15 +139,15 @@ def build_readme_block() -> str:
         items = [s for s in SERVICES if s["category"] == cat]
         if not items:
             continue
-        tiles = "".join(
-            f'<a href="{escape(svc["url"], quote=True)}" target="_blank">'
-            f'<img src="{RAW_BASE}{svc["slug"]}.svg" width="180" height="48" '
-            f'alt="{escape(svc["label"])}"/></a>'
+        cells = "".join(
+            f'<td><a href="{escape(svc["url"], quote=True)}" target="_blank">'
+            f'<img src="{RAW_BASE}{svc["slug"]}.svg" width="160" '
+            f'alt="{escape(svc["label"])}"/></a></td>'
             for svc in items
         )
         sections.append(
             f'<p align="center"><sub><strong>{cat}</strong></sub></p>\n'
-            f'<p align="center">{tiles}</p>'
+            f'<div align="center"><table><tbody><tr>{cells}</tr></tbody></table></div>'
         )
     return "\n".join(sections)
 

@@ -179,14 +179,28 @@ def load_posts() -> list[tuple[str, str, str]]:
 
 
 def build_readme_block(posts) -> str:
-    tiles = []
-    for i, (title, link, _) in enumerate(posts):
-        tiles.append(
-            f'<a href="{escape(link, quote=True)}" target="_blank">'
-            f'<img src="{RAW_BASE}post-{i}.svg" width="320" '
-            f'alt="{escape(title, quote=True)}"/></a>'
-        )
-    return '<div align="center">\n  ' + "\n  ".join(tiles) + "\n</div>"
+    cells_per_row = 3
+    total_rows = (len(posts) + cells_per_row - 1) // cells_per_row
+    rows = []
+    for r in range(total_rows):
+        cells = []
+        for c in range(cells_per_row):
+            i = r * cells_per_row + c
+            if i >= len(posts):
+                cells.append("<td></td>")
+                continue
+            title, link, _ = posts[i]
+            cells.append(
+                f'<td align="center"><a href="{escape(link, quote=True)}" target="_blank">'
+                f'<img src="{RAW_BASE}post-{i}.svg" width="240" '
+                f'alt="{escape(title, quote=True)}"/></a></td>'
+            )
+        rows.append("<tr>" + "".join(cells) + "</tr>")
+    return (
+        '<div align="center"><table><tbody>'
+        + "".join(rows)
+        + "</tbody></table></div>"
+    )
 
 
 def update_readme(html: str) -> None:

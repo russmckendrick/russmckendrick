@@ -146,16 +146,30 @@ def render_record_svg(rec: dict, i: int) -> str:
 
 
 def build_readme_block(records) -> str:
-    tiles = []
-    for i, rec in enumerate(records):
-        href = RELEASE_BASE + rec["uri_release"]
-        alt = rec["release_name"] + " by " + rec["release_artist"]
-        tiles.append(
-            f'<a href="{escape(href, quote=True)}" target="_blank">'
-            f'<img src="{RAW_BASE}record-{i}.svg" width="110" '
-            f'alt="{escape(alt, quote=True)}"/></a>'
-        )
-    return '<p align="center">' + "".join(tiles) + "</p>"
+    cells_per_row = 4
+    total_rows = (len(records) + cells_per_row - 1) // cells_per_row
+    rows = []
+    for r in range(total_rows):
+        cells = []
+        for c in range(cells_per_row):
+            i = r * cells_per_row + c
+            if i >= len(records):
+                cells.append("<td></td>")
+                continue
+            rec = records[i]
+            href = RELEASE_BASE + rec["uri_release"]
+            alt = rec["release_name"] + " by " + rec["release_artist"]
+            cells.append(
+                f'<td align="center"><a href="{escape(href, quote=True)}" target="_blank">'
+                f'<img src="{RAW_BASE}record-{i}.svg" width="150" '
+                f'alt="{escape(alt, quote=True)}"/></a></td>'
+            )
+        rows.append("<tr>" + "".join(cells) + "</tr>")
+    return (
+        '<div align="center"><table><tbody>'
+        + "".join(rows)
+        + "</tbody></table></div>"
+    )
 
 
 def update_readme(html: str) -> None:
