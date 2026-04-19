@@ -20,6 +20,10 @@ You can find everything in one place at [russ.social](https://www.russ.social/).
 The five most recent additions to my [record collection](https://www.russ.fm/) — refreshed every six hours.
 
 <!-- VINYL-LIST:START -->
+| <a href="https://www.russ.fm/album/spiderland-37044327/"><img src="https://assets.russ.fm/album/spiderland-37044327/spiderland-37044327-medium.jpg" alt="Spiderland by Slint" width="180"/></a> | <a href="https://www.russ.fm/album/20-jazz-funk-greats-37044456/"><img src="https://assets.russ.fm/album/20-jazz-funk-greats-37044456/20-jazz-funk-greats-37044456-medium.jpg" alt="20 Jazz Funk Greats by Throbbing Gristle" width="180"/></a> | <a href="https://www.russ.fm/album/hauntings-37036272/"><img src="https://assets.russ.fm/album/hauntings-37036272/hauntings-37036272-medium.jpg" alt="Hauntings by Richard Barbieri" width="180"/></a> | <a href="https://www.russ.fm/album/doolittle-37029006/"><img src="https://assets.russ.fm/album/doolittle-37029006/doolittle-37029006-medium.jpg" alt="Doolittle by Pixies" width="180"/></a> | <a href="https://www.russ.fm/album/slanted-and-enchanted-37025631/"><img src="https://assets.russ.fm/album/slanted-and-enchanted-37025631/slanted-and-enchanted-37025631-medium.jpg" alt="Slanted And Enchanted by Pavement" width="180"/></a> |
+|:---:|:---:|:---:|:---:|:---:|
+| <sub><b>Spiderland</b><br/>Slint</sub> | <sub><b>20 Jazz Funk Greats</b><br/>Throbbing Gristle</sub> | <sub><b>Hauntings</b><br/>Richard Barbieri</sub> | <sub><b>Doolittle</b><br/>Pixies</sub> | <sub><b>Slanted And Enchanted</b><br/>Pavement</sub> |
+
 <!-- VINYL-LIST:END -->
 
 ## GitHub stats 📊
