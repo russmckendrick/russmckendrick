@@ -51,23 +51,25 @@ jobs:
           root = ET.fromstring(fetch(FEED))
           items = root.findall("./channel/item")[:COUNT]
 
-          cards = []
+          posts = []
           for item in items:
               title = (item.findtext("title") or "").strip()
               link = (item.findtext("link") or "").strip()
               img = og_image(link) or ""
-              cards.append((title, link, img))
+              posts.append((title, link, img))
 
-          img_row = " | ".join(
-              f'<a href="{e(link, quote=True)}"><img src="{e(img, quote=True)}" alt="{e(title, quote=True)}" width="220"/></a>'
-              for title, link, img in cards
+          hero_title, hero_link, hero_img = posts[0]
+          hero = (
+              f'<p align="center">\n'
+              f'  <a href="{e(hero_link, quote=True)}">'
+              f'<img src="{e(hero_img, quote=True)}" '
+              f'alt="{e(hero_title, quote=True)}" width="720"/></a>\n'
+              f'</p>'
           )
-          align_row = "|".join([":---:"] * len(cards))
-          title_row = " | ".join(
-              f'<sub><a href="{e(link, quote=True)}"><b>{e(title)}</b></a></sub>'
-              for title, link, _ in cards
+          rest = "\n".join(
+              f'- [{e(title)}]({e(link, quote=True)})' for title, link, _ in posts[1:]
           )
-          rendered = f"| {img_row} |\n|{align_row}|\n| {title_row} |"
+          rendered = f"{hero}\n\n{rest}"
 
           readme = pathlib.Path("README.md")
           text = readme.read_text()
