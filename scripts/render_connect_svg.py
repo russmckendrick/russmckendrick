@@ -47,7 +47,7 @@ SERVICES = [
     {"slug": "discogs",     "label": "Discogs",     "url": "https://www.discogs.com/user/russmck/collection?header=1",  "category": "Music",   "color": "#333333", "icon": "discogs"},
     {"slug": "spotify",     "label": "Spotify",     "url": "https://open.spotify.com/user/russmckendrick",              "category": "Music",   "color": "#1DB954", "icon": "spotify"},
     {"slug": "lastfm",      "label": "Last.fm",     "url": "https://www.last.fm/user/RussMckendrick",                   "category": "Music",   "color": "#D51007", "icon": "lastdotfm"},
-    {"slug": "russ-cloud",  "label": "russ.cloud",  "url": "https://www.russ.cloud/",                                   "category": "Writing", "color": "#ffffff", "icon_url": "https://www.russ.cloud/images/logo.svg", "text_color": "#2c3e50"},
+    {"slug": "russ-cloud",  "label": "russ.cloud",  "url": "https://www.russ.cloud/",                                   "category": "Writing", "color": "#4a5568", "icon_url": "https://www.russ.cloud/images/logo.svg"},
     {"slug": "medium",      "label": "Medium",      "url": "https://russmckendrick.medium.com/",                        "category": "Writing", "color": "#000000", "icon": "medium"},
     {"slug": "amazon",      "label": "Amazon",      "url": "https://www.amazon.com/author/russmckendrick",              "category": "Writing", "color": "#FF9900", "icon": "amazon"},
 ]
