@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <g>
-    <text x="32" y="50" font-size="48" text-anchor="middle">👋</text>
-    <animateTransform attributeName="transform" type="rotate"
-      values="0 32 52; 20 32 52; -15 32 52; 20 32 52; -8 32 52; 0 32 52"
-      keyTimes="0; 0.18; 0.36; 0.54; 0.72; 1"
-      dur="1.8s" begin="0s" repeatCount="indefinite"/>
-  </g>
-</svg>
