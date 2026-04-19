@@ -11,6 +11,9 @@ You can find everything in one place at [russ.social](https://www.russ.social/).
 The five most recent posts from [russ.cloud](https://www.russ.cloud/) — refreshed every hour.
 
 <!-- BLOG-POST-LIST:START -->
+| <a href="https://www.russ.cloud/2026/04/19/is-my-blog-agent-ready/"><img src="https://www.russ.cloud/2026/04/19/is-my-blog-agent-ready-og.png" alt="Is my blog Agent-Ready?" width="220"/></a> | <a href="https://www.russ.cloud/2026/04/11/introducing-ai-commit/"><img src="https://www.russ.cloud/2026/04/11/introducing-ai-commit-og.png" alt="Introducing AI Commit" width="220"/></a> | <a href="https://www.russ.cloud/2026/04/05/introducing-hosts-butler/"><img src="https://www.russ.cloud/2026/04/05/introducing-hosts-butler-og.png" alt="Introducing Hosts Butler" width="220"/></a> | <a href="https://www.russ.cloud/2026/04/03/creating-custom-skills-for-copilot-cowork/"><img src="https://www.russ.cloud/2026/04/03/creating-custom-skills-for-copilot-cowork-og.png" alt="Creating Custom Skills for Copilot Cowork" width="220"/></a> | <a href="https://www.russ.cloud/2026/02/01/introducing-ssl-toolkit/"><img src="https://www.russ.cloud/2026/02/01/introducing-ssl-toolkit-og.png" alt="Introducing ssl-toolkit" width="220"/></a> |
+|:---:|:---:|:---:|:---:|:---:|
+| <sub><a href="https://www.russ.cloud/2026/04/19/is-my-blog-agent-ready/"><b>Is my blog Agent-Ready?</b></a></sub> | <sub><a href="https://www.russ.cloud/2026/04/11/introducing-ai-commit/"><b>Introducing AI Commit</b></a></sub> | <sub><a href="https://www.russ.cloud/2026/04/05/introducing-hosts-butler/"><b>Introducing Hosts Butler</b></a></sub> | <sub><a href="https://www.russ.cloud/2026/04/03/creating-custom-skills-for-copilot-cowork/"><b>Creating Custom Skills for Copilot Cowork</b></a></sub> | <sub><a href="https://www.russ.cloud/2026/02/01/introducing-ssl-toolkit/"><b>Introducing ssl-toolkit</b></a></sub> |
 <!-- BLOG-POST-LIST:END -->
 
 ## On the turntable 🎵
