@@ -16,11 +16,19 @@ from html import escape
 
 from PIL import Image
 
+import re
+
 COLLECTION_URL = "https://www.russ.fm/collection.json"
 RELEASE_BASE = "https://www.russ.fm"
 ASSET_BASE = "https://assets.russ.fm"
 COUNT = 5
 OUTPUT = pathlib.Path("img/vinyl.svg")
+README = pathlib.Path("README.md")
+SVG_URL = "https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/vinyl.svg"
+FALLBACK_URL = "https://www.russ.fm/"
+MARKER_START = "<!-- VINYL:START -->"
+MARKER_END = "<!-- VINYL:END -->"
+MAP_NAME = "vinyl-map"
 
 COVER = 160
 PEEK = 42  # how far the record sticks out to the right of the sleeve
@@ -163,6 +171,42 @@ def render(records) -> str:
     )
 
 
+def build_image_map(records) -> str:
+    areas = []
+    for i, rec in enumerate(records):
+        unit_x = GAP + i * (UNIT_W + GAP)
+        unit_y = GAP
+        x2 = unit_x + UNIT_W
+        y2 = unit_y + UNIT_H
+        href = RELEASE_BASE + rec["uri_release"]
+        title = rec["release_name"] + " by " + rec["release_artist"]
+        areas.append(
+            f'<area shape="rect" coords="{unit_x},{unit_y},{x2},{y2}" '
+            f'href="{escape(href, quote=True)}" '
+            f'alt="{escape(title, quote=True)}" target="_blank">'
+        )
+    img_tag = (
+        f'<p align="center"><a href="{FALLBACK_URL}">'
+        f'<img src="{SVG_URL}" alt="Five most recently added records" '
+        f'usemap="#{MAP_NAME}"/></a></p>'
+    )
+    map_tag = f'<map name="{MAP_NAME}">' + "".join(areas) + "</map>"
+    return f"{img_tag}\n{map_tag}"
+
+
+def update_readme(html: str) -> None:
+    text = README.read_text()
+    block = f"{MARKER_START}\n{html}\n{MARKER_END}"
+    pattern = re.compile(
+        re.escape(MARKER_START) + r".*?" + re.escape(MARKER_END),
+        re.DOTALL,
+    )
+    updated, n = pattern.subn(block, text)
+    if n == 0:
+        raise SystemExit(f"Markers {MARKER_START}/{MARKER_END} not found in README.md")
+    README.write_text(updated)
+
+
 def main() -> None:
     data = fetch_json(COLLECTION_URL)
     records = sorted(data, key=lambda r: r.get("date_added", ""), reverse=True)[:COUNT]
@@ -170,6 +214,8 @@ def main() -> None:
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(svg)
     print(f"Wrote {OUTPUT} ({len(svg):,} bytes)")
+    update_readme(build_image_map(records))
+    print(f"Updated {README}")
 
 
 if __name__ == "__main__":

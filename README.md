@@ -8,18 +8,20 @@ Apart from my work, I have written and contributed to twelve books primarily rev
 You can find everything in one place at [russ.social](https://www.russ.social/).
 
 ## Latest blog posts 🧑‍💻
-The five most recent posts from [russ.cloud](https://www.russ.cloud/) — refreshed every hour.
+The six most recent posts from [russ.cloud](https://www.russ.cloud/) — refreshed every hour.
 
-<p align="center">
-  <a href="https://www.russ.cloud/"><img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/blog.svg" alt="Six most recent blog posts"/></a>
-</p>
+<!-- BLOG-POSTS:START -->
+<p align="center"><a href="https://www.russ.cloud/"><img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/blog.svg" alt="Six most recent blog posts" usemap="#blog-map"/></a></p>
+<map name="blog-map"><area shape="rect" coords="20,20,340,262" href="https://www.russ.cloud/2026/04/19/is-my-blog-agent-ready/" alt="Is my blog Agent-Ready?" target="_blank"><area shape="rect" coords="360,20,680,262" href="https://www.russ.cloud/2026/04/11/introducing-ai-commit/" alt="Introducing AI Commit" target="_blank"><area shape="rect" coords="700,20,1020,262" href="https://www.russ.cloud/2026/04/05/introducing-hosts-butler/" alt="Introducing Hosts Butler" target="_blank"><area shape="rect" coords="20,282,340,524" href="https://www.russ.cloud/2026/04/03/creating-custom-skills-for-copilot-cowork/" alt="Creating Custom Skills for Copilot Cowork" target="_blank"><area shape="rect" coords="360,282,680,524" href="https://www.russ.cloud/2026/02/01/introducing-ssl-toolkit/" alt="Introducing ssl-toolkit" target="_blank"><area shape="rect" coords="700,282,1020,524" href="https://www.russ.cloud/2026/01/31/openclaw-giving-claude-a-body-and-a-telegram-bot/" alt="OpenClaw: Giving Claude a Body (and a Telegram Bot)" target="_blank"></map>
+<!-- BLOG-POSTS:END -->
 
 ## On the turntable 🎵
 The five most recent additions to my [record collection](https://www.russ.fm/) — refreshed every six hours.
 
-<p align="center">
-  <a href="https://www.russ.fm/"><img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/vinyl.svg" alt="Five most recently added records"/></a>
-</p>
+<!-- VINYL:START -->
+<p align="center"><a href="https://www.russ.fm/"><img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/vinyl.svg" alt="Five most recently added records" usemap="#vinyl-map"/></a></p>
+<map name="vinyl-map"><area shape="rect" coords="18,18,220,228" href="https://www.russ.fm/album/20-jazz-funk-greats-37044456/" alt="20 Jazz Funk Greats by Throbbing Gristle" target="_blank"><area shape="rect" coords="238,18,440,228" href="https://www.russ.fm/album/spiderland-37044327/" alt="Spiderland by Slint" target="_blank"><area shape="rect" coords="458,18,660,228" href="https://www.russ.fm/album/doolittle-37029006/" alt="Doolittle by Pixies" target="_blank"><area shape="rect" coords="678,18,880,228" href="https://www.russ.fm/album/hauntings-37036272/" alt="Hauntings by Richard Barbieri" target="_blank"><area shape="rect" coords="898,18,1100,228" href="https://www.russ.fm/album/slanted-and-enchanted-37025631/" alt="Slanted And Enchanted by Pavement" target="_blank"></map>
+<!-- VINYL:END -->
 
 ## GitHub stats 📊
 <a href="https://github.com/russmckendrick">

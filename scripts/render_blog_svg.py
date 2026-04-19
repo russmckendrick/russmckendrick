@@ -23,6 +23,12 @@ COLS = 3
 ROWS = 2
 COUNT = COLS * ROWS
 OUTPUT = pathlib.Path("img/blog.svg")
+README = pathlib.Path("README.md")
+SVG_URL = "https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/blog.svg"
+FALLBACK_URL = "https://www.russ.cloud/"
+MARKER_START = "<!-- BLOG-POSTS:START -->"
+MARKER_END = "<!-- BLOG-POSTS:END -->"
+MAP_NAME = "blog-map"
 
 CARD_W = 320
 OG_H = 168  # 1200x630 scales to 320x168
@@ -200,12 +206,49 @@ def load_posts() -> list[tuple[str, str, str]]:
     return out
 
 
+def build_image_map(posts) -> str:
+    areas = []
+    for i, (title, link, _) in enumerate(posts):
+        row, col = divmod(i, COLS)
+        x1 = GAP + col * (CARD_W + GAP)
+        y1 = GAP + row * (UNIT_H + GAP)
+        x2 = x1 + CARD_W
+        y2 = y1 + UNIT_H
+        areas.append(
+            f'<area shape="rect" coords="{x1},{y1},{x2},{y2}" '
+            f'href="{escape(link, quote=True)}" '
+            f'alt="{escape(title, quote=True)}" target="_blank">'
+        )
+    img_tag = (
+        f'<p align="center"><a href="{FALLBACK_URL}">'
+        f'<img src="{SVG_URL}" alt="Six most recent blog posts" '
+        f'usemap="#{MAP_NAME}"/></a></p>'
+    )
+    map_tag = f'<map name="{MAP_NAME}">' + "".join(areas) + "</map>"
+    return f"{img_tag}\n{map_tag}"
+
+
+def update_readme(html: str) -> None:
+    text = README.read_text()
+    block = f"{MARKER_START}\n{html}\n{MARKER_END}"
+    pattern = re.compile(
+        re.escape(MARKER_START) + r".*?" + re.escape(MARKER_END),
+        re.DOTALL,
+    )
+    updated, n = pattern.subn(block, text)
+    if n == 0:
+        raise SystemExit(f"Markers {MARKER_START}/{MARKER_END} not found in README.md")
+    README.write_text(updated)
+
+
 def main() -> None:
     posts = load_posts()
     svg = render(posts)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(svg)
     print(f"Wrote {OUTPUT} ({len(svg):,} bytes)")
+    update_readme(build_image_map(posts))
+    print(f"Updated {README}")
 
 
 if __name__ == "__main__":
