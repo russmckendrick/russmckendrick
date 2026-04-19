@@ -8,64 +8,32 @@ permissions:
   contents: write
 
 jobs:
-  update-readme-with-vinyl:
-    name: Update this repo's README with latest vinyl
+  update-vinyl-svg:
+    name: Regenerate img/vinyl.svg from russ.fm
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch collection.json
-        run: curl -fsSL https://www.russ.fm/collection.json -o collection.json
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-      - name: Render vinyl grid
-        run: |
-          jq -r '
-            def esc_attr: gsub("\""; "&quot;");
-            def esc_cell: gsub("\\|"; "\\\\|");
-            sort_by(.date_added) | reverse | .[0:5]
-            | "| " + (map(
-                "<a href=\"https://www.russ.fm" + .uri_release + "\">"
-                + "<img src=\"https://assets.russ.fm" + .images_uri_release.medium + "\" "
-                + "alt=\"" + (.release_name | esc_attr) + " by " + (.release_artist | esc_attr) + "\" "
-                + "width=\"180\"/></a>"
-              ) | join(" | ")) + " |\n"
-              + "|" + (map(":---:") | join("|")) + "|\n"
-              + "| " + (map(
-                "<sub><b>" + (.release_name | esc_cell) + "</b><br/>"
-                + (.release_artist | esc_cell) + "</sub>"
-              ) | join(" | ")) + " |"
-          ' collection.json > vinyl.md
+      - name: Install dependencies
+        run: pip install --quiet Pillow
 
-      - name: Update README between markers
-        run: |
-          python3 - <<'PY'
-          import pathlib, re
-          readme = pathlib.Path("README.md")
-          vinyl = pathlib.Path("vinyl.md").read_text()
-          text = readme.read_text()
-          pattern = re.compile(
-              r"(<!-- VINYL-LIST:START -->)(.*?)(<!-- VINYL-LIST:END -->)",
-              re.DOTALL,
-          )
-          new_block = f"<!-- VINYL-LIST:START -->\n{vinyl}\n<!-- VINYL-LIST:END -->"
-          updated, n = pattern.subn(new_block, text)
-          if n == 0:
-              raise SystemExit("VINYL-LIST markers not found in README.md")
-          readme.write_text(updated)
-          PY
-
-      - name: Clean up
-        run: rm -f collection.json vinyl.md
+      - name: Render vinyl.svg
+        run: python3 scripts/render_vinyl_svg.py
 
       - name: Commit and push if changed
         run: |
-          if [[ -n "$(git status --porcelain README.md)" ]]; then
+          if [[ -n "$(git status --porcelain img/vinyl.svg)" ]]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "🎵 Updated README with latest vinyl"
+            git add img/vinyl.svg
+            git commit -m "🎵 Regenerated vinyl.svg with latest records"
             git push
           else
-            echo "No changes to README.md"
+            echo "No changes to img/vinyl.svg"
           fi

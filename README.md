@@ -1,4 +1,4 @@
-# Hi there <img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/wave.gif" width="50" height="50" alt="Waving hand">, I'm Russ McKendrick
+# Hi there <img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/wave.svg" width="50" height="50" alt="Waving hand">, I'm Russ McKendrick
 
 ## About me 🙎‍♂️
 Hello! I'm Russ, an IT professional with a strong background in DevOps and system administration. I've spent the last 30 years working in various IT roles across multiple industries. I have a deep passion for Linux, open-source systems, automation, and containers. I currently serve as the Practice Manager of SRE & DevOps at [Node4](https://www.node4.co.uk/), managing projects across public and private clouds.
@@ -10,26 +10,16 @@ You can find everything in one place at [russ.social](https://www.russ.social/).
 ## Latest blog posts 🧑‍💻
 The five most recent posts from [russ.cloud](https://www.russ.cloud/) — refreshed every hour.
 
-<!-- BLOG-POST-LIST:START -->
 <p align="center">
-  <a href="https://www.russ.cloud/2026/04/19/is-my-blog-agent-ready/"><img src="https://www.russ.cloud/2026/04/19/is-my-blog-agent-ready-og.png" alt="Is my blog Agent-Ready?" width="720"/></a>
+  <img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/blog.svg" alt="Six most recent blog posts"/>
 </p>
-
-- [Introducing AI Commit](https://www.russ.cloud/2026/04/11/introducing-ai-commit/)
-- [Introducing Hosts Butler](https://www.russ.cloud/2026/04/05/introducing-hosts-butler/)
-- [Creating Custom Skills for Copilot Cowork](https://www.russ.cloud/2026/04/03/creating-custom-skills-for-copilot-cowork/)
-- [Introducing ssl-toolkit](https://www.russ.cloud/2026/02/01/introducing-ssl-toolkit/)
-<!-- BLOG-POST-LIST:END -->
 
 ## On the turntable 🎵
 The five most recent additions to my [record collection](https://www.russ.fm/) — refreshed every six hours.
 
-<!-- VINYL-LIST:START -->
-| <a href="https://www.russ.fm/album/spiderland-37044327/"><img src="https://assets.russ.fm/album/spiderland-37044327/spiderland-37044327-medium.jpg" alt="Spiderland by Slint" width="180"/></a> | <a href="https://www.russ.fm/album/20-jazz-funk-greats-37044456/"><img src="https://assets.russ.fm/album/20-jazz-funk-greats-37044456/20-jazz-funk-greats-37044456-medium.jpg" alt="20 Jazz Funk Greats by Throbbing Gristle" width="180"/></a> | <a href="https://www.russ.fm/album/hauntings-37036272/"><img src="https://assets.russ.fm/album/hauntings-37036272/hauntings-37036272-medium.jpg" alt="Hauntings by Richard Barbieri" width="180"/></a> | <a href="https://www.russ.fm/album/doolittle-37029006/"><img src="https://assets.russ.fm/album/doolittle-37029006/doolittle-37029006-medium.jpg" alt="Doolittle by Pixies" width="180"/></a> | <a href="https://www.russ.fm/album/slanted-and-enchanted-37025631/"><img src="https://assets.russ.fm/album/slanted-and-enchanted-37025631/slanted-and-enchanted-37025631-medium.jpg" alt="Slanted And Enchanted by Pavement" width="180"/></a> |
-|:---:|:---:|:---:|:---:|:---:|
-| <sub><b>Spiderland</b><br/>Slint</sub> | <sub><b>20 Jazz Funk Greats</b><br/>Throbbing Gristle</sub> | <sub><b>Hauntings</b><br/>Richard Barbieri</sub> | <sub><b>Doolittle</b><br/>Pixies</sub> | <sub><b>Slanted And Enchanted</b><br/>Pavement</sub> |
-
-<!-- VINYL-LIST:END -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/vinyl.svg" alt="Five most recently added records"/>
+</p>
 
 ## GitHub stats 📊
 <a href="https://github.com/russmckendrick">
