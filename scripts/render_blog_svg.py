@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Render the five most recent blog posts into a single SVG strip.
+"""Render each recent blog post as its own standalone browser-card SVG.
 
-Each post is drawn as a small browser-window card: traffic-light buttons,
-a faux URL bar showing the domain, the post's og:image as the content,
-and the title below. Everything is self-contained — images are base64
-embedded at render time — and the SVG is theme-aware.
+Each post becomes img/blog/post-N.svg — a small macOS-style browser window
+with traffic-light buttons, a faux URL bar, the post's og:image, and the
+title below. SVGs are self-contained (images are base64-embedded) and
+theme-aware via prefers-color-scheme.
+
+The README block between BLOG-POSTS:START/END markers is rewritten to a
+flex-wrapping <div> of per-post <a><img></a> pairs so each card is its
+own hyperlink (GitHub strips HTML image maps, so that's the only way).
 """
 from __future__ import annotations
 
@@ -19,27 +23,37 @@ from html import escape
 from PIL import Image
 
 FEED_URL = "https://www.russ.cloud/rss.xml"
-COLS = 3
-ROWS = 2
-COUNT = COLS * ROWS
-OUTPUT = pathlib.Path("img/blog.svg")
+COUNT = 6
+OUTPUT_DIR = pathlib.Path("img/blog")
 README = pathlib.Path("README.md")
-SVG_URL = "https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/blog.svg"
-FALLBACK_URL = "https://www.russ.cloud/"
+RAW_BASE = (
+    "https://raw.githubusercontent.com/russmckendrick/russmckendrick/main/img/blog/"
+)
 MARKER_START = "<!-- BLOG-POSTS:START -->"
 MARKER_END = "<!-- BLOG-POSTS:END -->"
-MAP_NAME = "blog-map"
 
 CARD_W = 320
 OG_H = 168  # 1200x630 scales to 320x168
 CHROME_H = 26
 TITLE_BAND_H = 48
-GAP = 20
-UNIT_H = CHROME_H + OG_H + TITLE_BAND_H
-WIDTH = COLS * CARD_W + (COLS + 1) * GAP
-HEIGHT = ROWS * UNIT_H + (ROWS + 1) * GAP
+CARD_H = CHROME_H + OG_H + TITLE_BAND_H
 
 TRAFFIC_LIGHTS = [("#ff5f57", 14), ("#febc2e", 30), ("#28c840", 46)]
+
+STYLE = """
+    .title { font: 600 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #1f2328; }
+    .chrome { fill: #ebecef; }
+    .urlbar { fill: #ffffff; stroke: rgba(0,0,0,0.08); stroke-width: 1; }
+    .urltext { font: 400 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #656d76; }
+    .frame { fill: none; stroke: rgba(0,0,0,0.12); stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #e6edf3; }
+      .chrome { fill: #21262d; }
+      .urlbar { fill: #0d1117; stroke: rgba(255,255,255,0.08); }
+      .urltext { fill: #8b949e; }
+      .frame { stroke: rgba(255,255,255,0.12); }
+    }
+""".strip()
 
 
 def fetch_bytes(url: str) -> bytes:
@@ -106,90 +120,48 @@ def wrap_title(text: str, per_line: int, max_lines: int = 2) -> list[str]:
     return lines or [text[:per_line]]
 
 
-def render_card(i: int, title: str, link: str, og_uri: str) -> str:
-    row, col = divmod(i, COLS)
-    unit_x = GAP + col * (CARD_W + GAP)
-    unit_y = GAP + row * (UNIT_H + GAP)
+def render_card_svg(title: str, og_uri: str) -> str:
     radius = 8
-
     lights = "".join(
-        f'<circle cx="{unit_x + cx}" cy="{unit_y + CHROME_H / 2}" r="5.5" fill="{color}"/>'
+        f'<circle cx="{cx}" cy="{CHROME_H / 2}" r="5.5" fill="{color}"/>'
         for color, cx in TRAFFIC_LIGHTS
     )
     domain = "www.russ.cloud"
-    url_bar_x = unit_x + 64
+    url_bar_x = 64
     url_bar_w = CARD_W - 76
     url_bar = (
-        f'<rect x="{url_bar_x}" y="{unit_y + 5}" '
-        f'width="{url_bar_w}" height="{CHROME_H - 10}" rx="4" class="urlbar"/>'
-        f'<text x="{url_bar_x + url_bar_w / 2}" y="{unit_y + CHROME_H / 2 + 4}" '
-        f'class="urltext" text-anchor="middle">{escape(domain)}</text>'
+        f'<rect x="{url_bar_x}" y="5" width="{url_bar_w}" height="{CHROME_H - 10}" rx="4" class="urlbar"/>'
+        f'<text x="{url_bar_x + url_bar_w / 2}" y="{CHROME_H / 2 + 4}" class="urltext" text-anchor="middle">{escape(domain)}</text>'
     )
-
     chrome = (
-        f'<path d="M {unit_x} {unit_y + radius} '
-        f'Q {unit_x} {unit_y} {unit_x + radius} {unit_y} '
-        f'L {unit_x + CARD_W - radius} {unit_y} '
-        f'Q {unit_x + CARD_W} {unit_y} {unit_x + CARD_W} {unit_y + radius} '
-        f'L {unit_x + CARD_W} {unit_y + CHROME_H} '
-        f'L {unit_x} {unit_y + CHROME_H} Z" class="chrome"/>'
+        f'<path d="M 0 {radius} Q 0 0 {radius} 0 '
+        f'L {CARD_W - radius} 0 Q {CARD_W} 0 {CARD_W} {radius} '
+        f'L {CARD_W} {CHROME_H} L 0 {CHROME_H} Z" class="chrome"/>'
         f"{lights}{url_bar}"
     )
-
-    og_y = unit_y + CHROME_H
     og = (
-        f'<image href="{og_uri}" x="{unit_x}" y="{og_y}" '
+        f'<image href="{og_uri}" x="0" y="{CHROME_H}" '
         f'width="{CARD_W}" height="{OG_H}" preserveAspectRatio="xMidYMid slice"/>'
     )
-
-    title_y = og_y + OG_H + 20
+    title_y = CHROME_H + OG_H + 20
     lines = wrap_title(title, per_line=42, max_lines=2)
-    title_tspans = "".join(
-        f'<tspan x="{unit_x + CARD_W / 2}" dy="{0 if idx == 0 else 18}">{escape(line)}</tspan>'
+    tspans = "".join(
+        f'<tspan x="{CARD_W / 2}" dy="{0 if idx == 0 else 18}">{escape(line)}</tspan>'
         for idx, line in enumerate(lines)
     )
     title_el = (
-        f'<text x="{unit_x + CARD_W / 2}" y="{title_y}" '
-        f'class="title" text-anchor="middle">{title_tspans}</text>'
+        f'<text x="{CARD_W / 2}" y="{title_y}" class="title" text-anchor="middle">{tspans}</text>'
     )
-
-    # outline for the content area so it reads as a windowed screenshot
     outline = (
-        f'<rect x="{unit_x}" y="{unit_y}" width="{CARD_W}" height="{CHROME_H + OG_H}" '
+        f'<rect x="0" y="0" width="{CARD_W}" height="{CHROME_H + OG_H}" '
         f'rx="{radius}" class="frame"/>'
     )
-
-    return (
-        f'<a href="{escape(link, quote=True)}" target="_blank">'
-        f"{chrome}{og}{outline}{title_el}"
-        f"</a>"
-    )
-
-
-def render(posts) -> str:
-    cards = "".join(
-        render_card(i, title, link, og) for i, (title, link, og) in enumerate(posts)
-    )
-    style = """
-    .title { font: 600 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #1f2328; }
-    .chrome { fill: #ebecef; }
-    .urlbar { fill: #ffffff; stroke: rgba(0,0,0,0.08); stroke-width: 1; }
-    .urltext { font: 400 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #656d76; }
-    .frame { fill: none; stroke: rgba(0,0,0,0.12); stroke-width: 1; }
-    @media (prefers-color-scheme: dark) {
-      .title { fill: #e6edf3; }
-      .chrome { fill: #21262d; }
-      .urlbar { fill: #0d1117; stroke: rgba(255,255,255,0.08); }
-      .urltext { fill: #8b949e; }
-      .frame { stroke: rgba(255,255,255,0.12); }
-    }
-    """.strip()
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" '
-        f'xmlns:xlink="http://www.w3.org/1999/xlink" '
-        f'viewBox="0 0 {WIDTH} {HEIGHT}" width="{WIDTH}" height="{HEIGHT}" '
-        f'role="img" aria-label="Five most recent blog posts">'
-        f"<style>{style}</style>{cards}</svg>\n"
+        f'viewBox="0 0 {CARD_W} {CARD_H}" width="{CARD_W}" height="{CARD_H}" '
+        f'role="img" aria-label="{escape(title, quote=True)}">'
+        f"<style>{STYLE}</style>{chrome}{og}{outline}{title_el}"
+        f"</svg>\n"
     )
 
 
@@ -206,26 +178,15 @@ def load_posts() -> list[tuple[str, str, str]]:
     return out
 
 
-def build_image_map(posts) -> str:
-    areas = []
+def build_readme_block(posts) -> str:
+    tiles = []
     for i, (title, link, _) in enumerate(posts):
-        row, col = divmod(i, COLS)
-        x1 = GAP + col * (CARD_W + GAP)
-        y1 = GAP + row * (UNIT_H + GAP)
-        x2 = x1 + CARD_W
-        y2 = y1 + UNIT_H
-        areas.append(
-            f'<area shape="rect" coords="{x1},{y1},{x2},{y2}" '
-            f'href="{escape(link, quote=True)}" '
-            f'alt="{escape(title, quote=True)}" target="_blank">'
+        tiles.append(
+            f'<a href="{escape(link, quote=True)}" target="_blank">'
+            f'<img src="{RAW_BASE}post-{i}.svg" width="320" '
+            f'alt="{escape(title, quote=True)}"/></a>'
         )
-    img_tag = (
-        f'<p align="center"><a href="{FALLBACK_URL}">'
-        f'<img src="{SVG_URL}" alt="Six most recent blog posts" '
-        f'usemap="#{MAP_NAME}"/></a></p>'
-    )
-    map_tag = f'<map name="{MAP_NAME}">' + "".join(areas) + "</map>"
-    return f"{img_tag}\n{map_tag}"
+    return '<div align="center">\n  ' + "\n  ".join(tiles) + "\n</div>"
 
 
 def update_readme(html: str) -> None:
@@ -243,11 +204,15 @@ def update_readme(html: str) -> None:
 
 def main() -> None:
     posts = load_posts()
-    svg = render(posts)
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(svg)
-    print(f"Wrote {OUTPUT} ({len(svg):,} bytes)")
-    update_readme(build_image_map(posts))
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    for stale in OUTPUT_DIR.glob("post-*.svg"):
+        stale.unlink()
+    for i, (title, _, og_uri) in enumerate(posts):
+        svg = render_card_svg(title, og_uri)
+        out = OUTPUT_DIR / f"post-{i}.svg"
+        out.write_text(svg)
+        print(f"Wrote {out} ({len(svg):,} bytes)")
+    update_readme(build_readme_block(posts))
     print(f"Updated {README}")
 
 
