@@ -11,14 +11,14 @@ You can find everything in one place at [russ.social](https://www.russ.social/).
 The five most recent posts from [russ.cloud](https://www.russ.cloud/) — refreshed every hour.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/blog.svg" alt="Six most recent blog posts"/>
+  <a href="https://www.russ.cloud/"><img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/blog.svg" alt="Six most recent blog posts"/></a>
 </p>
 
 ## On the turntable 🎵
 The five most recent additions to my [record collection](https://www.russ.fm/) — refreshed every six hours.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/vinyl.svg" alt="Five most recently added records"/>
+  <a href="https://www.russ.fm/"><img src="https://raw.githubusercontent.com/russmckendrick/russmckendrick/master/img/vinyl.svg" alt="Five most recently added records"/></a>
 </p>
 
 ## GitHub stats 📊
