@@ -29,14 +29,6 @@ The eight most recent additions to my [record collection](https://www.russ.fm/) 
 </p>
 
 <p align="center">
-  <a href="https://github.com/russmckendrick"><img height="180" alt="Russ's GitHub streak" src="https://streak-stats.demolab.com/?user=russmckendrick&hide_border=true&background=00000000&ring=0969da&fire=0969da&currStreakLabel=0969da"/></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/russmckendrick"><img alt="Contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=russmckendrick&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20activity&bg_color=00000000&color=0969da&line=0969da&point=57606a"/></a>
-</p>
-
-<p align="center">
   <a href="https://github.com/russmckendrick">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/russmckendrick/russmckendrick/main/img/github-snake-dark.svg"/>
